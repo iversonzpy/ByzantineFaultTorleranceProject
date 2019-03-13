@@ -1,0 +1,1 @@
+java -cp bin/*:lib/* bftsmart.demo.ycsbapp.occ.SerializeDatabase $1

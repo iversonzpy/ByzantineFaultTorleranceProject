@@ -1,0 +1,1091 @@
+Script started on Wed Mar 13 00:03:02 2019
+]1337;RemoteHost=mie@mie-mbp]1337;CurrentDir=/Users/mie/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject]1337;ShellIntegrationVersion=8;shell=zsh[1m[7m%[27m[1m[0m                                                                                                              ]2;mie@mie-mbp: ~/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject]1;..eranceProject]133;D;0]1337;RemoteHost=mie@mie-mbp]1337;CurrentDir=/Users/mie/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject[0m[27m[24m[J]133;A[39m[0m[49m[40m[39m mie@mie-mbp [44m[30m[30m ~/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject [49m[34m[39m ]133;B[K[?1h=[?2004h[32m./runscripts/startlog.sh[39m[32mR[32me[32mp[32ml[32mi[32mc[32maYCSB.sh[39m 3[K 2 1[A[89C[32my[32mc[32ms[32mb[32mC[32ml[32mi[32me[32mn[32mt[32m.[32ms[32mh[39m[K[1B[K[A[104C[13D[32ms[32mt[32ma[32mr[32mt[32mR[32me[32mp[32ml[32mi[32mc[32ma[32mY[32mCSB.sh[39m 3[K[A[89C[32my[32mc[32ms[32mb[32mC[32ml[32mi[32me[32mn[32mt[32m.[32ms[32mh[39m[K[1B[K[A[104C[?1l>[?2004l[1B]2;./runscripts/ycsbClient.sh]1;./runscripts/ycsbClient.sh]133;C;YCSB Client 0.1
+Command line: -threads 10 -P config/workloads/workloada -p measurementtype=timeseries -p timeseries.granularity=1000 -db bftsmart.demo.ycsbapp.client.YCSBClient -s
+Loading workload...
+Starting test.
+ 0 sec: 0 operations; 
+Connecting to replica 0 at /127.0.0.1:11000
+Connecting to replica 0 at /127.0.0.1:11000
+Connecting to replica 0 at /127.0.0.1:11000
+Connecting to replica 0 at /127.0.0.1:11000
+Connecting to replica 0 at /127.0.0.1:11000
+Connecting to replica 0 at /127.0.0.1:11000
+Connecting to replica 0 at /127.0.0.1:11000
+Connecting to replica 0 at /127.0.0.1:11000
+Connecting to replica 0 at /127.0.0.1:11000
+Connecting to replica 0 at /127.0.0.1:11000
+Channel active
+Channel active
+Channel active
+Channel active
+Channel active
+Connecting to replica 1 at /127.0.0.1:11010
+Channel active
+Channel active
+Channel active
+Connecting to replica 1 at /127.0.0.1:11010
+Connecting to replica 1 at /127.0.0.1:11010
+Channel active
+Channel active
+Channel active
+Connecting to replica 1 at /127.0.0.1:11010
+Channel active
+Channel active
+Channel active
+Connecting to replica 1 at /127.0.0.1:11010
+Channel active
+Connecting to replica 1 at /127.0.0.1:11010
+Connecting to replica 1 at /127.0.0.1:11010
+Connecting to replica 2 at /127.0.0.1:11020
+Channel active
+Channel active
+Channel active
+Connecting to replica 1 at /127.0.0.1:11010
+Connecting to replica 2 at /127.0.0.1:11020
+Connecting to replica 2 at /127.0.0.1:11020
+Channel active
+Connecting to replica 2 at /127.0.0.1:11020
+Channel active
+Channel active
+Connecting to replica 1 at /127.0.0.1:11010
+Channel active
+Connecting to replica 1 at /127.0.0.1:11010
+Channel active
+Connecting to replica 2 at /127.0.0.1:11020
+Channel active
+Connecting to replica 3 at /127.0.0.1:11030
+Channel active
+Channel active
+Connecting to replica 2 at /127.0.0.1:11020
+Connecting to replica 2 at /127.0.0.1:11020
+Channel active
+Connecting to replica 2 at /127.0.0.1:11020
+Channel active
+Channel active
+Connecting to replica 3 at /127.0.0.1:11030
+Connecting to replica 3 at /127.0.0.1:11030
+Channel active
+Connecting to replica 3 at /127.0.0.1:11030
+Channel active
+Connecting to replica 2 at /127.0.0.1:11020
+Channel active
+Channel active
+Connecting to replica 3 at /127.0.0.1:11030
+Connecting to replica 2 at /127.0.0.1:11020
+Connecting to replica 3 at /127.0.0.1:11030
+Channel active
+Connecting to replica 3 at /127.0.0.1:11030
+Channel active
+Channel active
+Connecting to replica 3 at /127.0.0.1:11030
+Channel active
+Channel active
+Connecting to replica 3 at /127.0.0.1:11030
+Channel active
+Connecting to replica 3 at /127.0.0.1:11030
+Channel active
+Commit failed! Transaction ID = 1008_1
+Commit failed! Transaction ID = 1009_2
+ 1 sec: 118 operations; 116.03 current ops/sec; [UPDATE AverageLatency(us)=51810.29] 
+Commit failed! Transaction ID = 1008_236
+Commit failed! Transaction ID = 1010_408
+ 2 sec: 486 operations; 367.63 current ops/sec; [UPDATE AverageLatency(us)=27168.55] 
+Commit failed! Transaction ID = 1002_465
+Commit failed! Transaction ID = 1005_472
+Commit failed! Transaction ID = 1001_669
+Commit failed! Transaction ID = 1001_678
+Commit failed! Transaction ID = 1006_883
+Commit failed! Transaction ID = 1009_887
+Commit failed! Transaction ID = 1006_893
+Commit failed! Transaction ID = 1009_894
+ 3 sec: 1109 operations; 622.38 current ops/sec; [UPDATE AverageLatency(us)=16333.98] 
+Commit failed! Transaction ID = 1005_1613
+Commit failed! Transaction ID = 1008_1622
+Commit failed! Transaction ID = 1009_1802
+Commit failed! Transaction ID = 1002_1840
+ 4 sec: 1884 operations; 775 current ops/sec; [UPDATE AverageLatency(us)=12884.73] 
+Commit failed! Transaction ID = 1002_1973
+Commit failed! Transaction ID = 1001_2155
+Commit failed! Transaction ID = 1010_2516
+Commit failed! Transaction ID = 1007_2573
+Commit failed! Transaction ID = 1008_2580
+Commit failed! Transaction ID = 1009_2583
+Commit failed! Transaction ID = 1008_2592
+Commit failed! Transaction ID = 1009_2598
+Commit failed! Transaction ID = 1008_2602
+Commit failed! Transaction ID = 1009_2604
+Commit failed! Transaction ID = 1008_2610
+Commit failed! Transaction ID = 1008_2622
+ 5 sec: 2678 operations; 793.21 current ops/sec; [UPDATE AverageLatency(us)=12617.55] 
+Commit failed! Transaction ID = 1001_2737
+Commit failed! Transaction ID = 1008_2929
+Commit failed! Transaction ID = 1008_3486
+Commit failed! Transaction ID = 1008_3496
+Commit failed! Transaction ID = 1010_3498
+ 6 sec: 3513 operations; 830.85 current ops/sec; [UPDATE AverageLatency(us)=11993.34] 
+Commit failed! Transaction ID = 1008_3506
+Commit failed! Transaction ID = 1010_3507
+Commit failed! Transaction ID = 1010_3699
+Commit failed! Transaction ID = 1008_3702
+Commit failed! Transaction ID = 1002_3905
+Commit failed! Transaction ID = 1008_4248
+Commit failed! Transaction ID = 1003_4295
+Commit failed! Transaction ID = 1003_4331
+Commit failed! Transaction ID = 1010_4342
+Commit failed! Transaction ID = 1009_4343
+ 7 sec: 4393 operations; 880 current ops/sec; [UPDATE AverageLatency(us)=11372.87] 
+Commit failed! Transaction ID = 1008_4931
+Commit failed! Transaction ID = 1008_4937
+Commit failed! Transaction ID = 1002_5362
+Commit failed! Transaction ID = 1002_5372
+Commit failed! Transaction ID = 1010_5373
+ 8 sec: 5386 operations; 992.01 current ops/sec; [UPDATE AverageLatency(us)=10076.46] 
+Commit failed! Transaction ID = 1002_5380
+Commit failed! Transaction ID = 1010_5383
+Commit failed! Transaction ID = 1002_5391
+Commit failed! Transaction ID = 1002_5400
+Commit failed! Transaction ID = 1010_5403
+Commit failed! Transaction ID = 1003_5716
+Commit failed! Transaction ID = 1008_5718
+Commit failed! Transaction ID = 1009_5812
+Commit failed! Transaction ID = 1003_6312
+ 9 sec: 6417 operations; 1031 current ops/sec; [UPDATE AverageLatency(us)=9671.71] 
+Commit failed! Transaction ID = 1001_6408
+Commit failed! Transaction ID = 1005_6472
+Commit failed! Transaction ID = 1006_6473
+Commit failed! Transaction ID = 1008_6595
+Commit failed! Transaction ID = 1008_6795
+Commit failed! Transaction ID = 1008_6805
+Commit failed! Transaction ID = 1008_6813
+Commit failed! Transaction ID = 1004_7221
+Commit failed! Transaction ID = 1004_7230
+Commit failed! Transaction ID = 1003_7231
+Commit failed! Transaction ID = 1003_7455
+ 10 sec: 7472 operations; 1053.95 current ops/sec; [UPDATE AverageLatency(us)=9475.32] 
+Commit failed! Transaction ID = 1003_7465
+Commit failed! Transaction ID = 1008_7478
+Commit failed! Transaction ID = 1008_7488
+Commit failed! Transaction ID = 1008_7598
+Commit failed! Transaction ID = 1009_7957
+Commit failed! Transaction ID = 1010_7964
+Commit failed! Transaction ID = 1008_7965
+Commit failed! Transaction ID = 1009_8095
+Commit failed! Transaction ID = 1009_8106
+Commit failed! Transaction ID = 1004_8111
+Commit failed! Transaction ID = 1002_8120
+Commit failed! Transaction ID = 1008_8164
+Commit failed! Transaction ID = 1003_8170
+Commit failed! Transaction ID = 1008_8173
+Commit failed! Transaction ID = 1004_8257
+Commit failed! Transaction ID = 1002_8366
+Commit failed! Transaction ID = 1008_8368
+Commit failed! Transaction ID = 1003_8375
+Commit failed! Transaction ID = 1008_8378
+ 11 sec: 8541 operations; 1064.74 current ops/sec; [UPDATE AverageLatency(us)=9398.03] 
+Commit failed! Transaction ID = 1001_8560
+Commit failed! Transaction ID = 1010_8570
+Commit failed! Transaction ID = 1010_8580
+Commit failed! Transaction ID = 1001_9209
+Commit failed! Transaction ID = 1009_9482
+Commit failed! Transaction ID = 1008_9534
+Commit failed! Transaction ID = 1009_9700
+Commit failed! Transaction ID = 1009_9710
+Commit failed! Transaction ID = 1008_9711
+ 12 sec: 9722 operations; 1179.82 current ops/sec; [UPDATE AverageLatency(us)=8426.89] 
+Commit failed! Transaction ID = 1009_9720
+Commit failed! Transaction ID = 1008_9723
+Commit failed! Transaction ID = 1009_9730
+Commit failed! Transaction ID = 1008_9732
+Commit failed! Transaction ID = 1009_9740
+Commit failed! Transaction ID = 1008_9742
+Commit failed! Transaction ID = 1009_9750
+Commit failed! Transaction ID = 1008_9751
+Commit failed! Transaction ID = 1008_9761
+Commit failed! Transaction ID = 1009_9769
+Commit failed! Transaction ID = 1009_9775
+Commit failed! Transaction ID = 1009_9785
+Commit failed! Transaction ID = 1010_9793
+Commit failed! Transaction ID = 1008_9801
+Commit failed! Transaction ID = 1005_9966
+Commit failed! Transaction ID = 1009_9972
+Commit failed! Transaction ID = 1009_9981
+Commit failed! Transaction ID = 1008_9976
+Commit failed! Transaction ID = 1007_10359
+Commit failed! Transaction ID = 1008_10365
+Commit failed! Transaction ID = 1001_10473
+Commit failed! Transaction ID = 1009_10475
+Commit failed! Transaction ID = 1001_10483
+Commit failed! Transaction ID = 1008_10487
+Commit failed! Transaction ID = 1006_10492
+Commit failed! Transaction ID = 1008_10495
+Commit failed! Transaction ID = 1009_10686
+Commit failed! Transaction ID = 1004_10692
+Commit failed! Transaction ID = 1008_10871
+Commit failed! Transaction ID = 1008_10881
+Commit failed! Transaction ID = 1009_10890
+Commit failed! Transaction ID = 1008_10891
+ 13 sec: 10935 operations; 1211.79 current ops/sec; [UPDATE AverageLatency(us)=8267.21] 
+Commit failed! Transaction ID = 1008_11104
+Commit failed! Transaction ID = 1008_11566
+Commit failed! Transaction ID = 1008_11605
+Commit failed! Transaction ID = 1010_11611
+Commit failed! Transaction ID = 1008_11616
+Commit failed! Transaction ID = 1010_11619
+Commit failed! Transaction ID = 1009_11625
+Commit failed! Transaction ID = 1010_11630
+Commit failed! Transaction ID = 1009_11633
+Commit failed! Transaction ID = 1006_11642
+Commit failed! Transaction ID = 1009_11643
+Commit failed! Transaction ID = 1001_11922
+ 14 sec: 12178 operations; 1241.76 current ops/sec; [UPDATE AverageLatency(us)=8024.06] 
+Commit failed! Transaction ID = 1003_12274
+Commit failed! Transaction ID = 1006_12344
+Commit failed! Transaction ID = 1010_12346
+Commit failed! Transaction ID = 1005_12353
+Commit failed! Transaction ID = 1009_12368
+Commit failed! Transaction ID = 1001_12375
+Commit failed! Transaction ID = 1001_13319
+Commit failed! Transaction ID = 1008_13331
+Commit failed! Transaction ID = 1004_13364
+Commit failed! Transaction ID = 1008_13366
+ 15 sec: 13534 operations; 1356 current ops/sec; [UPDATE AverageLatency(us)=7390.59] 
+Commit failed! Transaction ID = 1009_14461
+Commit failed! Transaction ID = 1010_14470
+Commit failed! Transaction ID = 1001_14479
+Commit failed! Transaction ID = 1001_14489
+Commit failed! Transaction ID = 1001_14792
+Commit failed! Transaction ID = 1002_14797
+Commit failed! Transaction ID = 1010_15131
+ 16 sec: 15205 operations; 1671 current ops/sec; [UPDATE AverageLatency(us)=5958.59] 
+Commit failed! Transaction ID = 1008_15250
+Commit failed! Transaction ID = 1003_15310
+Commit failed! Transaction ID = 1008_15317
+Commit failed! Transaction ID = 1003_15320
+Commit failed! Transaction ID = 1008_15324
+Commit failed! Transaction ID = 1003_15330
+Commit failed! Transaction ID = 1001_15372
+Commit failed! Transaction ID = 1009_15381
+Commit failed! Transaction ID = 1002_15382
+Commit failed! Transaction ID = 1002_15393
+Commit failed! Transaction ID = 1008_15400
+Commit failed! Transaction ID = 1002_15402
+Commit failed! Transaction ID = 1008_15405
+Commit failed! Transaction ID = 1010_15523
+Commit failed! Transaction ID = 1010_15533
+Commit failed! Transaction ID = 1008_15536
+Commit failed! Transaction ID = 1010_15543
+Commit failed! Transaction ID = 1008_15545
+Commit failed! Transaction ID = 1009_15553
+Commit failed! Transaction ID = 1003_15666
+Commit failed! Transaction ID = 1003_15676
+Commit failed! Transaction ID = 1008_15686
+Commit failed! Transaction ID = 1008_15695
+Commit failed! Transaction ID = 1008_15704
+Commit failed! Transaction ID = 1008_15714
+Commit failed! Transaction ID = 1008_15724
+Commit failed! Transaction ID = 1008_15734
+Commit failed! Transaction ID = 1003_15743
+Commit failed! Transaction ID = 1001_15753
+Commit failed! Transaction ID = 1009_15762
+Commit failed! Transaction ID = 1009_15772
+Commit failed! Transaction ID = 1009_15778
+Commit failed! Transaction ID = 1009_15787
+Commit failed! Transaction ID = 1008_15794
+Commit failed! Transaction ID = 1009_15799
+Commit failed! Transaction ID = 1008_15804
+Commit failed! Transaction ID = 1009_15808
+Commit failed! Transaction ID = 1008_15813
+Commit failed! Transaction ID = 1009_15816
+Commit failed! Transaction ID = 1008_15820
+Commit failed! Transaction ID = 1008_15830
+Commit failed! Transaction ID = 1008_15840
+Commit failed! Transaction ID = 1008_15849
+Commit failed! Transaction ID = 1004_15851
+Commit failed! Transaction ID = 1008_15860
+Commit failed! Transaction ID = 1009_15864
+Commit failed! Transaction ID = 1008_15869
+Commit failed! Transaction ID = 1009_15872
+Commit failed! Transaction ID = 1008_15878
+Commit failed! Transaction ID = 1003_15879
+Commit failed! Transaction ID = 1004_15885
+Commit failed! Transaction ID = 1008_15888
+Commit failed! Transaction ID = 1004_15895
+Commit failed! Transaction ID = 1008_15896
+Commit failed! Transaction ID = 1008_16310
+ 17 sec: 16516 operations; 1309.69 current ops/sec; [UPDATE AverageLatency(us)=7651.96] 
+Commit failed! Transaction ID = 1008_16609
+Commit failed! Transaction ID = 1008_16898
+Commit failed! Transaction ID = 1009_16908
+Commit failed! Transaction ID = 1009_16919
+Commit failed! Transaction ID = 1001_17054
+Commit failed! Transaction ID = 1003_17063
+Commit failed! Transaction ID = 1003_17073
+Commit failed! Transaction ID = 1009_17075
+Commit failed! Transaction ID = 1007_17092
+Commit failed! Transaction ID = 1004_17138
+Commit failed! Transaction ID = 1008_17149
+Commit failed! Transaction ID = 1001_17154
+Commit failed! Transaction ID = 1008_17158
+Commit failed! Transaction ID = 1010_17164
+Commit failed! Transaction ID = 1010_17173
+Commit failed! Transaction ID = 1008_17179
+Commit failed! Transaction ID = 1010_17182
+Commit failed! Transaction ID = 1009_17187
+Commit failed! Transaction ID = 1010_17192
+Commit failed! Transaction ID = 1008_17198
+Commit failed! Transaction ID = 1008_17208
+Commit failed! Transaction ID = 1009_17482
+Commit failed! Transaction ID = 1010_17931
+ 18 sec: 18045 operations; 1527.47 current ops/sec; [UPDATE AverageLatency(us)=6528.47] 
+Commit failed! Transaction ID = 1008_18701
+Commit failed! Transaction ID = 1008_18712
+Commit failed! Transaction ID = 1005_18733
+ 19 sec: 19915 operations; 1870 current ops/sec; [UPDATE AverageLatency(us)=5356.48] 
+Commit failed! Transaction ID = 1003_20175
+Commit failed! Transaction ID = 1009_20640
+Commit failed! Transaction ID = 1003_20643
+Commit failed! Transaction ID = 1008_21219
+Commit failed! Transaction ID = 1008_21229
+Commit failed! Transaction ID = 1001_21256
+Commit failed! Transaction ID = 1009_21291
+Commit failed! Transaction ID = 1009_21378
+Commit failed! Transaction ID = 1009_21388
+Commit failed! Transaction ID = 1009_21398
+Commit failed! Transaction ID = 1009_21408
+Commit failed! Transaction ID = 1009_21418
+Commit failed! Transaction ID = 1009_21424
+Commit failed! Transaction ID = 1009_21434
+Commit failed! Transaction ID = 1009_21443
+ 20 sec: 21599 operations; 1684 current ops/sec; [UPDATE AverageLatency(us)=5927.19] 
+Commit failed! Transaction ID = 1002_22133
+Commit failed! Transaction ID = 1007_22142
+Commit failed! Transaction ID = 1010_22145
+Commit failed! Transaction ID = 1006_22189
+Commit failed! Transaction ID = 1010_22336
+Commit failed! Transaction ID = 1001_22400
+Commit failed! Transaction ID = 1009_22403
+Commit failed! Transaction ID = 1007_22409
+Commit failed! Transaction ID = 1009_22412
+Commit failed! Transaction ID = 1001_22420
+Commit failed! Transaction ID = 1008_22422
+Commit failed! Transaction ID = 1001_22429
+Commit failed! Transaction ID = 1001_22439
+Commit failed! Transaction ID = 1009_22440
+Commit failed! Transaction ID = 1009_22994
+Commit failed! Transaction ID = 1001_22997
+Commit failed! Transaction ID = 1009_23003
+Commit failed! Transaction ID = 1008_23005
+ 21 sec: 23724 operations; 2122.88 current ops/sec; [UPDATE AverageLatency(us)=4701.99] 
+Commit failed! Transaction ID = 1010_24218
+Commit failed! Transaction ID = 1004_24225
+Commit failed! Transaction ID = 1009_24644
+Commit failed! Transaction ID = 1002_24646
+Commit failed! Transaction ID = 1004_24639
+Commit failed! Transaction ID = 1005_24643
+Commit failed! Transaction ID = 1001_24650
+Commit failed! Transaction ID = 1009_24662
+Commit failed! Transaction ID = 1009_24733
+Commit failed! Transaction ID = 1009_24744
+Commit failed! Transaction ID = 1009_24752
+Commit failed! Transaction ID = 1009_24762
+Commit failed! Transaction ID = 1009_24774
+Commit failed! Transaction ID = 1008_25117
+ 22 sec: 25982 operations; 2258 current ops/sec; [UPDATE AverageLatency(us)=4421.53] 
+Commit failed! Transaction ID = 1010_26497
+Commit failed! Transaction ID = 1008_26504
+Commit failed! Transaction ID = 1003_26520
+Commit failed! Transaction ID = 1002_26530
+Commit failed! Transaction ID = 1008_26538
+Commit failed! Transaction ID = 1008_26548
+Commit failed! Transaction ID = 1002_26950
+Commit failed! Transaction ID = 1004_26956
+Commit failed! Transaction ID = 1008_27314
+Commit failed! Transaction ID = 1006_27511
+Commit failed! Transaction ID = 1008_27530
+ 23 sec: 28045 operations; 2063 current ops/sec; [UPDATE AverageLatency(us)=4841.68] 
+Commit failed! Transaction ID = 1001_28755
+Commit failed! Transaction ID = 1003_28775
+Commit failed! Transaction ID = 1006_28782
+ 24 sec: 30512 operations; 2464.54 current ops/sec; [UPDATE AverageLatency(us)=4052.9] 
+Commit failed! Transaction ID = 1009_30626
+Commit failed! Transaction ID = 1008_30629
+Commit failed! Transaction ID = 1003_30636
+Commit failed! Transaction ID = 1008_30640
+Commit failed! Transaction ID = 1008_31567
+Commit failed! Transaction ID = 1010_32073
+Commit failed! Transaction ID = 1008_32135
+ 25 sec: 32712 operations; 2200 current ops/sec; [UPDATE AverageLatency(us)=4539.41] 
+Commit failed! Transaction ID = 1010_32708
+Commit failed! Transaction ID = 1008_32713
+Commit failed! Transaction ID = 1002_32718
+Commit failed! Transaction ID = 1008_32721
+Commit failed! Transaction ID = 1002_32728
+Commit failed! Transaction ID = 1008_32729
+Commit failed! Transaction ID = 1009_34183
+Commit failed! Transaction ID = 1008_35032
+ 26 sec: 35162 operations; 2450 current ops/sec; [UPDATE AverageLatency(us)=4073.53] 
+Commit failed! Transaction ID = 1008_35511
+Commit failed! Transaction ID = 1005_35955
+Commit failed! Transaction ID = 1010_35992
+Commit failed! Transaction ID = 1008_36218
+Commit failed! Transaction ID = 1008_36228
+Commit failed! Transaction ID = 1009_36231
+Commit failed! Transaction ID = 1008_36238
+Commit failed! Transaction ID = 1009_36240
+Commit failed! Transaction ID = 1008_36245
+Commit failed! Transaction ID = 1009_36250
+Commit failed! Transaction ID = 1008_36254
+Commit failed! Transaction ID = 1010_36259
+Commit failed! Transaction ID = 1008_36263
+Commit failed! Transaction ID = 1009_36270
+Commit failed! Transaction ID = 1008_36272
+Commit failed! Transaction ID = 1010_36279
+Commit failed! Transaction ID = 1008_36282
+Commit failed! Transaction ID = 1008_36293
+Commit failed! Transaction ID = 1010_36297
+Commit failed! Transaction ID = 1008_36303
+Commit failed! Transaction ID = 1009_36308
+Commit failed! Transaction ID = 1008_36312
+Commit failed! Transaction ID = 1008_36321
+Commit failed! Transaction ID = 1001_36328
+Commit failed! Transaction ID = 1009_36337
+Commit failed! Transaction ID = 1005_36346
+Commit failed! Transaction ID = 1009_36356
+Commit failed! Transaction ID = 1008_36358
+Commit failed! Transaction ID = 1009_36366
+Commit failed! Transaction ID = 1001_36890
+Commit failed! Transaction ID = 1008_36901
+Commit failed! Transaction ID = 1008_36911
+Commit failed! Transaction ID = 1008_36919
+Commit failed! Transaction ID = 1010_36923
+Commit failed! Transaction ID = 1008_36929
+Commit failed! Transaction ID = 1010_36932
+Commit failed! Transaction ID = 1008_36939
+Commit failed! Transaction ID = 1008_36949
+Commit failed! Transaction ID = 1008_36958
+Commit failed! Transaction ID = 1008_36968
+Commit failed! Transaction ID = 1008_36975
+Commit failed! Transaction ID = 1001_37038
+Commit failed! Transaction ID = 1008_37039
+Commit failed! Transaction ID = 1001_37048
+ 27 sec: 37183 operations; 2021 current ops/sec; [UPDATE AverageLatency(us)=4946.81] 
+Commit failed! Transaction ID = 1006_37180
+Commit failed! Transaction ID = 1010_37360
+Commit failed! Transaction ID = 1010_37370
+Commit failed! Transaction ID = 1008_37372
+Commit failed! Transaction ID = 1006_37379
+Commit failed! Transaction ID = 1002_37426
+Commit failed! Transaction ID = 1007_37958
+Commit failed! Transaction ID = 1008_37969
+Commit failed! Transaction ID = 1002_38528
+Commit failed! Transaction ID = 1008_38536
+Commit failed! Transaction ID = 1008_39147
+Commit failed! Transaction ID = 1001_39153
+ 28 sec: 39339 operations; 2153.85 current ops/sec; [UPDATE AverageLatency(us)=4634.03] 
+Commit failed! Transaction ID = 1009_39462
+Commit failed! Transaction ID = 1002_39659
+Commit failed! Transaction ID = 1002_39667
+Commit failed! Transaction ID = 1008_39807
+Commit failed! Transaction ID = 1009_39814
+Commit failed! Transaction ID = 1008_39817
+Commit failed! Transaction ID = 1009_39819
+Commit failed! Transaction ID = 1005_41610
+Commit failed! Transaction ID = 1008_41613
+ 29 sec: 41690 operations; 2351 current ops/sec; [UPDATE AverageLatency(us)=4249.48] 
+Commit failed! Transaction ID = 1001_41895
+Commit failed! Transaction ID = 1003_41925
+Commit failed! Transaction ID = 1001_42775
+Commit failed! Transaction ID = 1009_43191
+Commit failed! Transaction ID = 1003_43207
+Commit failed! Transaction ID = 1008_43211
+Commit failed! Transaction ID = 1010_43678
+Commit failed! Transaction ID = 1010_43688
+Commit failed! Transaction ID = 1008_43693
+Commit failed! Transaction ID = 1010_43699
+Commit failed! Transaction ID = 1008_43702
+Commit failed! Transaction ID = 1002_43707
+Commit failed! Transaction ID = 1008_43711
+Commit failed! Transaction ID = 1002_43717
+Commit failed! Transaction ID = 1008_43721
+Commit failed! Transaction ID = 1002_43729
+Commit failed! Transaction ID = 1008_43732
+Commit failed! Transaction ID = 1002_43737
+Commit failed! Transaction ID = 1008_43741
+Commit failed! Transaction ID = 1003_43747
+Commit failed! Transaction ID = 1008_43752
+ 30 sec: 44016 operations; 2326 current ops/sec; [UPDATE AverageLatency(us)=4291.85] 
+Commit failed! Transaction ID = 1008_44301
+Commit failed! Transaction ID = 1008_44311
+Commit failed! Transaction ID = 1008_44527
+Commit failed! Transaction ID = 1001_45006
+Commit failed! Transaction ID = 1001_45105
+Commit failed! Transaction ID = 1001_45114
+Commit failed! Transaction ID = 1001_45124
+Commit failed! Transaction ID = 1001_45134
+Commit failed! Transaction ID = 1008_45135
+Commit failed! Transaction ID = 1001_45503
+Commit failed! Transaction ID = 1001_45513
+Commit failed! Transaction ID = 1008_45515
+Commit failed! Transaction ID = 1001_45523
+Commit failed! Transaction ID = 1008_45525
+Commit failed! Transaction ID = 1001_45533
+Commit failed! Transaction ID = 1008_45534
+Commit failed! Transaction ID = 1009_45878
+Commit failed! Transaction ID = 1001_45882
+ 31 sec: 45977 operations; 1959.04 current ops/sec; [UPDATE AverageLatency(us)=5102.71] 
+Commit failed! Transaction ID = 1010_46032
+Commit failed! Transaction ID = 1008_46037
+Commit failed! Transaction ID = 1002_46192
+Commit failed! Transaction ID = 1001_46201
+Commit failed! Transaction ID = 1001_46308
+Commit failed! Transaction ID = 1010_46313
+Commit failed! Transaction ID = 1001_46318
+Commit failed! Transaction ID = 1002_46327
+Commit failed! Transaction ID = 1002_46337
+Commit failed! Transaction ID = 1006_47034
+Commit failed! Transaction ID = 1008_47038
+ 32 sec: 48167 operations; 2190 current ops/sec; [UPDATE AverageLatency(us)=4561.08] 
+Commit failed! Transaction ID = 1006_49053
+Commit failed! Transaction ID = 1009_49055
+Commit failed! Transaction ID = 1001_49224
+Commit failed! Transaction ID = 1008_49229
+Commit failed! Transaction ID = 1007_49232
+Commit failed! Transaction ID = 1001_49234
+Commit failed! Transaction ID = 1003_49241
+Commit failed! Transaction ID = 1007_49242
+Commit failed! Transaction ID = 1010_49245
+Commit failed! Transaction ID = 1008_49249
+Commit failed! Transaction ID = 1001_49252
+Commit failed! Transaction ID = 1010_49257
+Commit failed! Transaction ID = 1005_49261
+Commit failed! Transaction ID = 1003_49270
+Commit failed! Transaction ID = 1004_49932
+ 33 sec: 50229 operations; 2059.94 current ops/sec; [UPDATE AverageLatency(us)=4834.78] 
+Commit failed! Transaction ID = 1009_50379
+Commit failed! Transaction ID = 1007_50624
+Commit failed! Transaction ID = 1005_50659
+Commit failed! Transaction ID = 1004_50668
+Commit failed! Transaction ID = 1009_50690
+Commit failed! Transaction ID = 1004_51055
+Commit failed! Transaction ID = 1004_51064
+Commit failed! Transaction ID = 1008_51634
+Commit failed! Transaction ID = 1008_51644
+Commit failed! Transaction ID = 1008_51773
+Commit failed! Transaction ID = 1010_51787
+Commit failed! Transaction ID = 1010_52037
+Commit failed! Transaction ID = 1009_52038
+ 34 sec: 52313 operations; 2075.7 current ops/sec; [UPDATE AverageLatency(us)=4818.89] 
+Commit failed! Transaction ID = 1009_52343
+Commit failed! Transaction ID = 1009_52695
+Commit failed! Transaction ID = 1009_52743
+Commit failed! Transaction ID = 1009_52755
+Commit failed! Transaction ID = 1001_52919
+Commit failed! Transaction ID = 1001_52959
+Commit failed! Transaction ID = 1001_52969
+Commit failed! Transaction ID = 1009_54082
+Commit failed! Transaction ID = 1008_54348
+ 35 sec: 54370 operations; 2057 current ops/sec; [UPDATE AverageLatency(us)=4842.59] 
+Commit failed! Transaction ID = 1005_54474
+Commit failed! Transaction ID = 1010_54509
+Commit failed! Transaction ID = 1001_54519
+Commit failed! Transaction ID = 1010_55147
+Commit failed! Transaction ID = 1001_55157
+Commit failed! Transaction ID = 1008_55208
+Commit failed! Transaction ID = 1001_55218
+Commit failed! Transaction ID = 1009_55506
+Commit failed! Transaction ID = 1003_55513
+ 36 sec: 56553 operations; 2183 current ops/sec; [UPDATE AverageLatency(us)=4589.9] 
+Commit failed! Transaction ID = 1009_57063
+Commit failed! Transaction ID = 1008_57218
+Commit failed! Transaction ID = 1009_57718
+Commit failed! Transaction ID = 1009_57728
+Commit failed! Transaction ID = 1008_57729
+Commit failed! Transaction ID = 1009_57738
+Commit failed! Transaction ID = 1008_57739
+Commit failed! Transaction ID = 1009_57747
+Commit failed! Transaction ID = 1008_57749
+Commit failed! Transaction ID = 1009_57755
+Commit failed! Transaction ID = 1008_57758
+Commit failed! Transaction ID = 1008_57767
+Commit failed! Transaction ID = 1009_57774
+Commit failed! Transaction ID = 1008_57776
+Commit failed! Transaction ID = 1003_58352
+Commit failed! Transaction ID = 1003_58361
+Commit failed! Transaction ID = 1003_58371
+ 37 sec: 58381 operations; 1826.17 current ops/sec; [UPDATE AverageLatency(us)=5457.6] 
+Commit failed! Transaction ID = 1004_58380
+Commit failed! Transaction ID = 1009_58383
+Commit failed! Transaction ID = 1004_58390
+Commit failed! Transaction ID = 1001_58392
+Commit failed! Transaction ID = 1004_58399
+Commit failed! Transaction ID = 1001_58403
+Commit failed! Transaction ID = 1006_58408
+Commit failed! Transaction ID = 1001_58411
+Commit failed! Transaction ID = 1001_58706
+Commit failed! Transaction ID = 1002_58711
+Commit failed! Transaction ID = 1007_59113
+Commit failed! Transaction ID = 1007_59123
+Commit failed! Transaction ID = 1008_59126
+Commit failed! Transaction ID = 1002_59322
+Commit failed! Transaction ID = 1003_59330
+Commit failed! Transaction ID = 1008_59416
+Commit failed! Transaction ID = 1002_59422
+ 38 sec: 59843 operations; 1459.08 current ops/sec; [UPDATE AverageLatency(us)=6857.88] 
+Commit failed! Transaction ID = 1002_60108
+Commit failed! Transaction ID = 1009_60381
+Commit failed! Transaction ID = 1006_60390
+Commit failed! Transaction ID = 1005_60482
+Commit failed! Transaction ID = 1009_60492
+Commit failed! Transaction ID = 1004_60499
+Commit failed! Transaction ID = 1009_60501
+Commit failed! Transaction ID = 1009_60519
+Commit failed! Transaction ID = 1009_60530
+Commit failed! Transaction ID = 1008_60531
+Commit failed! Transaction ID = 1008_60574
+Commit failed! Transaction ID = 1010_60583
+Commit failed! Transaction ID = 1010_60592
+Commit failed! Transaction ID = 1010_60602
+Commit failed! Transaction ID = 1008_60645
+Commit failed! Transaction ID = 1001_60653
+Commit failed! Transaction ID = 1009_61020
+ 39 sec: 61280 operations; 1435.56 current ops/sec; [UPDATE AverageLatency(us)=6945.87] 
+Commit failed! Transaction ID = 1003_61759
+Commit failed! Transaction ID = 1008_61763
+Commit failed! Transaction ID = 1008_61796
+Commit failed! Transaction ID = 1008_61806
+Commit failed! Transaction ID = 1008_61816
+Commit failed! Transaction ID = 1008_61825
+Commit failed! Transaction ID = 1008_61835
+Commit failed! Transaction ID = 1009_61839
+Commit failed! Transaction ID = 1008_61845
+Commit failed! Transaction ID = 1009_61846
+Commit failed! Transaction ID = 1008_61852
+Commit failed! Transaction ID = 1002_61861
+Commit failed! Transaction ID = 1003_61977
+Commit failed! Transaction ID = 1008_61981
+Commit failed! Transaction ID = 1004_62062
+Commit failed! Transaction ID = 1008_62359
+Commit failed! Transaction ID = 1010_62372
+Commit failed! Transaction ID = 1008_62379
+Commit failed! Transaction ID = 1009_62380
+Commit failed! Transaction ID = 1008_62387
+Commit failed! Transaction ID = 1009_62390
+Commit failed! Transaction ID = 1008_62397
+Commit failed! Transaction ID = 1010_62398
+Commit failed! Transaction ID = 1008_62407
+Commit failed! Transaction ID = 1009_62410
+Commit failed! Transaction ID = 1009_62576
+Commit failed! Transaction ID = 1009_62585
+Commit failed! Transaction ID = 1009_62594
+Commit failed! Transaction ID = 1002_63003
+Commit failed! Transaction ID = 1008_63007
+ 40 sec: 63089 operations; 1809 current ops/sec; [UPDATE AverageLatency(us)=5526.77] 
+Commit failed! Transaction ID = 1004_63744
+Commit failed! Transaction ID = 1008_64060
+Commit failed! Transaction ID = 1009_64356
+Commit failed! Transaction ID = 1003_64365
+Commit failed! Transaction ID = 1008_64375
+Commit failed! Transaction ID = 1009_64400
+Commit failed! Transaction ID = 1008_64569
+Commit failed! Transaction ID = 1010_64612
+ 41 sec: 64781 operations; 1692 current ops/sec; [UPDATE AverageLatency(us)=5503.43] 
+Commit failed! Transaction ID = 1001_64932
+Commit failed! Transaction ID = 1002_65115
+Commit failed! Transaction ID = 1008_65122
+Commit failed! Transaction ID = 1008_65132
+Commit failed! Transaction ID = 1009_65136
+Commit failed! Transaction ID = 1007_65314
+Commit failed! Transaction ID = 1001_65729
+Commit failed! Transaction ID = 1002_66099
+Commit failed! Transaction ID = 1005_66575
+Commit failed! Transaction ID = 1007_66581
+ 42 sec: 66787 operations; 2004 current ops/sec; [UPDATE AverageLatency(us)=5316.39] 
+Commit failed! Transaction ID = 1010_67233
+Commit failed! Transaction ID = 1001_67248
+Commit failed! Transaction ID = 1008_67254
+Commit failed! Transaction ID = 1001_67259
+Commit failed! Transaction ID = 1010_67260
+Commit failed! Transaction ID = 1002_67267
+Commit failed! Transaction ID = 1008_67270
+ 43 sec: 69089 operations; 2302 current ops/sec; [UPDATE AverageLatency(us)=4339.16] 
+ 44 sec: 71404 operations; 2303.48 current ops/sec; [UPDATE AverageLatency(us)=4333.75] 
+Commit failed! Transaction ID = 1008_71809
+Commit failed! Transaction ID = 1010_71816
+Commit failed! Transaction ID = 1010_71825
+Commit failed! Transaction ID = 1010_71835
+Commit failed! Transaction ID = 1008_71836
+Commit failed! Transaction ID = 1009_71969
+Commit failed! Transaction ID = 1006_71978
+Commit failed! Transaction ID = 1008_71981
+Commit failed! Transaction ID = 1010_71997
+Commit failed! Transaction ID = 1008_72001
+Commit failed! Transaction ID = 1008_72340
+Commit failed! Transaction ID = 1001_73372
+ 45 sec: 73382 operations; 1970.12 current ops/sec; [UPDATE AverageLatency(us)=5069.05] 
+Commit failed! Transaction ID = 1001_73382
+Commit failed! Transaction ID = 1001_73402
+Commit failed! Transaction ID = 1003_73405
+Commit failed! Transaction ID = 1005_73409
+Commit failed! Transaction ID = 1004_73418
+Commit failed! Transaction ID = 1008_73437
+Commit failed! Transaction ID = 1009_73446
+Commit failed! Transaction ID = 1004_74094
+Commit failed! Transaction ID = 1008_74097
+Commit failed! Transaction ID = 1001_74111
+Commit failed! Transaction ID = 1008_74113
+Commit failed! Transaction ID = 1008_74407
+Commit failed! Transaction ID = 1008_74417
+ 46 sec: 75252 operations; 1870 current ops/sec; [UPDATE AverageLatency(us)=5352.86] 
+Commit failed! Transaction ID = 1001_75572
+Commit failed! Transaction ID = 1004_75629
+Commit failed! Transaction ID = 1009_75647
+Commit failed! Transaction ID = 1003_76941
+ 47 sec: 77412 operations; 2160 current ops/sec; [UPDATE AverageLatency(us)=4622.51] 
+Commit failed! Transaction ID = 1002_78001
+Commit failed! Transaction ID = 1002_78821
+Commit failed! Transaction ID = 1010_78830
+Commit failed! Transaction ID = 1002_78832
+Commit failed! Transaction ID = 1009_78982
+Commit failed! Transaction ID = 1008_78985
+ 48 sec: 79505 operations; 2090.91 current ops/sec; [UPDATE AverageLatency(us)=4768.79] 
+Commit failed! Transaction ID = 1008_79697
+Commit failed! Transaction ID = 1001_79778
+Commit failed! Transaction ID = 1008_79823
+Commit failed! Transaction ID = 1009_79825
+Commit failed! Transaction ID = 1001_79935
+Commit failed! Transaction ID = 1003_79937
+Commit failed! Transaction ID = 1005_80150
+Commit failed! Transaction ID = 1008_80268
+Commit failed! Transaction ID = 1008_80276
+Commit failed! Transaction ID = 1008_80286
+Commit failed! Transaction ID = 1009_80292
+Commit failed! Transaction ID = 1008_80295
+Commit failed! Transaction ID = 1009_80301
+Commit failed! Transaction ID = 1010_80302
+Commit failed! Transaction ID = 1008_80364
+Commit failed! Transaction ID = 1009_80367
+Commit failed! Transaction ID = 1008_80374
+Commit failed! Transaction ID = 1009_80376
+Commit failed! Transaction ID = 1002_81103
+Commit failed! Transaction ID = 1006_81110
+Commit failed! Transaction ID = 1004_81286
+Commit failed! Transaction ID = 1006_81296
+Commit failed! Transaction ID = 1007_81306
+Commit failed! Transaction ID = 1007_81316
+Commit failed! Transaction ID = 1007_81326
+Commit failed! Transaction ID = 1008_81329
+Commit failed! Transaction ID = 1007_81336
+Commit failed! Transaction ID = 1008_81339
+Commit failed! Transaction ID = 1007_81346
+Commit failed! Transaction ID = 1004_81357
+Commit failed! Transaction ID = 1008_81360
+Commit failed! Transaction ID = 1004_81366
+Commit failed! Transaction ID = 1008_81370
+Commit failed! Transaction ID = 1004_81378
+Commit failed! Transaction ID = 1008_81380
+Commit failed! Transaction ID = 1006_81386
+Commit failed! Transaction ID = 1008_81390
+Commit failed! Transaction ID = 1007_81396
+Commit failed! Transaction ID = 1008_81400
+ 49 sec: 81515 operations; 2010 current ops/sec; [UPDATE AverageLatency(us)=4975.89] 
+ 50 sec: 83807 operations; 2287.43 current ops/sec; [UPDATE AverageLatency(us)=4362.11] 
+Commit failed! Transaction ID = 1010_83848
+Commit failed! Transaction ID = 1009_83875
+Commit failed! Transaction ID = 1009_83914
+Commit failed! Transaction ID = 1002_83919
+Commit failed! Transaction ID = 1008_84006
+Commit failed! Transaction ID = 1009_84013
+Commit failed! Transaction ID = 1009_84021
+Commit failed! Transaction ID = 1009_84104
+Commit failed! Transaction ID = 1005_84113
+Commit failed! Transaction ID = 1006_84132
+Commit failed! Transaction ID = 1002_84287
+Commit failed! Transaction ID = 1002_84297
+Commit failed! Transaction ID = 1008_84308
+Commit failed! Transaction ID = 1010_84311
+Commit failed! Transaction ID = 1008_84315
+Commit failed! Transaction ID = 1010_84320
+Commit failed! Transaction ID = 1008_84324
+Commit failed! Transaction ID = 1009_84331
+Commit failed! Transaction ID = 1001_84333
+Commit failed! Transaction ID = 1009_84336
+Commit failed! Transaction ID = 1001_84343
+Commit failed! Transaction ID = 1002_84345
+Commit failed! Transaction ID = 1001_84353
+Commit failed! Transaction ID = 1002_84356
+Commit failed! Transaction ID = 1008_84363
+Commit failed! Transaction ID = 1008_84370
+Commit failed! Transaction ID = 1009_84377
+Commit failed! Transaction ID = 1008_84380
+Commit failed! Transaction ID = 1009_84387
+Commit failed! Transaction ID = 1008_84390
+Commit failed! Transaction ID = 1010_84397
+Commit failed! Transaction ID = 1008_84399
+Commit failed! Transaction ID = 1010_84403
+Commit failed! Transaction ID = 1008_84407
+Commit failed! Transaction ID = 1010_84413
+Commit failed! Transaction ID = 1009_84415
+Commit failed! Transaction ID = 1010_84424
+Commit failed! Transaction ID = 1009_84425
+Commit failed! Transaction ID = 1010_84432
+Commit failed! Transaction ID = 1009_84436
+Commit failed! Transaction ID = 1004_84555
+Commit failed! Transaction ID = 1004_84564
+Commit failed! Transaction ID = 1004_84574
+Commit failed! Transaction ID = 1008_84585
+Commit failed! Transaction ID = 1003_84620
+Commit failed! Transaction ID = 1006_85724
+ 51 sec: 85745 operations; 1938 current ops/sec; [UPDATE AverageLatency(us)=5140.3] 
+Commit failed! Transaction ID = 1008_85753
+Commit failed! Transaction ID = 1008_85762
+Commit failed! Transaction ID = 1010_85767
+Commit failed! Transaction ID = 1008_85961
+Commit failed! Transaction ID = 1008_86027
+Commit failed! Transaction ID = 1001_86035
+Commit failed! Transaction ID = 1008_86329
+Commit failed! Transaction ID = 1009_86527
+Commit failed! Transaction ID = 1008_87045
+ 52 sec: 87650 operations; 1903.1 current ops/sec; [UPDATE AverageLatency(us)=5181.51] 
+Commit failed! Transaction ID = 1003_87672
+Commit failed! Transaction ID = 1007_87791
+Commit failed! Transaction ID = 1009_87792
+^C[1m[7m%[27m[1m[0m                                                                                                              ]2;mie@mie-mbp: ~/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject]1;..eranceProject]133;D;130]1337;RemoteHost=mie@mie-mbp]1337;CurrentDir=/Users/mie/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject[0m[27m[24m[J]133;A[39m[0m[49m[40m[39m [31m✘[40m[39m mie@mie-mbp [44m[30m[30m ~/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject [49m[34m[39m ]133;B[K[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                              ]2;mie@mie-mbp: ~/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject]1;..eranceProject]133;C;]133;D;130]1337;RemoteHost=mie@mie-mbp]1337;CurrentDir=/Users/mie/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject[0m[27m[24m[J]133;A[39m[0m[49m[40m[39m [31m✘[40m[39m mie@mie-mbp [44m[30m[30m ~/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject [49m[34m[39m ]133;B[K[?1h=[?2004h[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                              ]2;mie@mie-mbp: ~/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject]1;..eranceProject]133;C;]133;D;130]1337;RemoteHost=mie@mie-mbp]1337;CurrentDir=/Users/mie/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject[0m[27m[24m[J]133;A[39m[0m[49m[40m[39m [31m✘[40m[39m mie@mie-mbp [44m[30m[30m ~/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject [49m[34m[39m ]133;B[K[?1h=[?2004h[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                              ]2;mie@mie-mbp: ~/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject]1;..eranceProject]133;C;]133;D;130]1337;RemoteHost=mie@mie-mbp]1337;CurrentDir=/Users/mie/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject[0m[27m[24m[J]133;A[39m[0m[49m[40m[39m [31m✘[40m[39m mie@mie-mbp [44m[30m[30m ~/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject [49m[34m[39m ]133;B[K[?1h=[?2004h[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                              ]2;mie@mie-mbp: ~/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject]1;..eranceProject]133;C;]133;D;130]1337;RemoteHost=mie@mie-mbp]1337;CurrentDir=/Users/mie/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject[0m[27m[24m[J]133;A[39m[0m[49m[40m[39m [31m✘[40m[39m mie@mie-mbp [44m[30m[30m ~/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject [49m[34m[39m ]133;B[K[?1h=[?2004h[32m./runscripts/ycsbClient.sh[39m[?1l>[?2004l
+]2;./runscripts/ycsbClient.sh]1;./runscripts/ycsbClient.sh]133;C;YCSB Client 0.1
+Command line: -threads 10 -P config/workloads/workloada -p measurementtype=timeseries -p timeseries.granularity=1000 -db bftsmart.demo.ycsbapp.client.YCSBClient -s
+Loading workload...
+Starting test.
+ 0 sec: 0 operations; 
+Connecting to replica 0 at /127.0.0.1:11000
+Connecting to replica 0 at /127.0.0.1:11000
+Connecting to replica 0 at /127.0.0.1:11000
+Connecting to replica 0 at /127.0.0.1:11000
+Connecting to replica 0 at /127.0.0.1:11000
+Connecting to replica 0 at /127.0.0.1:11000
+Connecting to replica 0 at /127.0.0.1:11000
+Connecting to replica 0 at /127.0.0.1:11000
+Connecting to replica 0 at /127.0.0.1:11000
+Connecting to replica 0 at /127.0.0.1:11000
+Channel active
+Channel active
+Channel active
+Channel active
+Channel active
+Connecting to replica 1 at /127.0.0.1:11010
+Channel active
+Channel active
+Channel active
+Connecting to replica 1 at /127.0.0.1:11010
+Connecting to replica 1 at /127.0.0.1:11010
+Channel active
+Channel active
+Channel active
+Channel active
+Connecting to replica 1 at /127.0.0.1:11010
+Channel active
+Channel active
+Connecting to replica 1 at /127.0.0.1:11010
+Connecting to replica 1 at /127.0.0.1:11010
+Channel active
+Connecting to replica 1 at /127.0.0.1:11010
+Channel active
+Channel active
+Connecting to replica 1 at /127.0.0.1:11010
+Connecting to replica 2 at /127.0.0.1:11020
+Connecting to replica 2 at /127.0.0.1:11020
+Connecting to replica 2 at /127.0.0.1:11020
+Channel active
+Channel active
+Connecting to replica 1 at /127.0.0.1:11010
+Channel active
+Channel active
+Channel active
+Connecting to replica 2 at /127.0.0.1:11020
+Connecting to replica 2 at /127.0.0.1:11020
+Connecting to replica 2 at /127.0.0.1:11020
+Channel active
+Connecting to replica 2 at /127.0.0.1:11020
+Channel active
+Connecting to replica 2 at /127.0.0.1:11020
+Channel active
+Channel active
+Connecting to replica 3 at /127.0.0.1:11030
+Channel active
+Connecting to replica 1 at /127.0.0.1:11010
+Channel active
+Channel active
+Connecting to replica 3 at /127.0.0.1:11030
+Channel active
+Connecting to replica 2 at /127.0.0.1:11020
+Channel active
+Connecting to replica 3 at /127.0.0.1:11030
+Connecting to replica 3 at /127.0.0.1:11030
+Connecting to replica 3 at /127.0.0.1:11030
+Connecting to replica 3 at /127.0.0.1:11030
+Channel active
+Channel active
+Channel active
+Channel active
+Connecting to replica 3 at /127.0.0.1:11030
+Connecting to replica 3 at /127.0.0.1:11030
+Connecting to replica 2 at /127.0.0.1:11020
+Channel active
+Channel active
+Channel active
+Connecting to replica 3 at /127.0.0.1:11030
+Channel active
+Connecting to replica 3 at /127.0.0.1:11030
+Channel active
+Commit failed! Transaction ID = 1007_38
+ 1 sec: 110 operations; 108.37 current ops/sec; [UPDATE AverageLatency(us)=56376.45] 
+Commit failed! Transaction ID = 1008_364
+Commit failed! Transaction ID = 1008_446
+Commit failed! Transaction ID = 1002_450
+ 2 sec: 482 operations; 371.26 current ops/sec; [UPDATE AverageLatency(us)=27168.55] 
+Commit failed! Transaction ID = 1009_546
+Commit failed! Transaction ID = 1007_555
+Commit failed! Transaction ID = 1009_558
+Commit failed! Transaction ID = 1008_584
+Commit failed! Transaction ID = 1001_585
+Commit failed! Transaction ID = 1008_594
+Commit failed! Transaction ID = 1009_596
+Commit failed! Transaction ID = 1010_661
+Commit failed! Transaction ID = 1009_850
+Commit failed! Transaction ID = 1002_858
+Commit failed! Transaction ID = 1009_970
+ 3 sec: 1067 operations; 584.42 current ops/sec; [UPDATE AverageLatency(us)=17136.03] 
+Commit failed! Transaction ID = 1009_1804
+ 4 sec: 1873 operations; 803.59 current ops/sec; [UPDATE AverageLatency(us)=12457.39] 
+Commit failed! Transaction ID = 1003_1987
+Commit failed! Transaction ID = 1004_1997
+Commit failed! Transaction ID = 1010_2244
+Commit failed! Transaction ID = 1010_2254
+Commit failed! Transaction ID = 1001_2263
+Commit failed! Transaction ID = 1008_2274
+Commit failed! Transaction ID = 1002_2281
+Commit failed! Transaction ID = 1008_2284
+Commit failed! Transaction ID = 1002_2292
+Commit failed! Transaction ID = 1008_2294
+Commit failed! Transaction ID = 1004_2301
+Commit failed! Transaction ID = 1008_2306
+Commit failed! Transaction ID = 1008_2450
+Commit failed! Transaction ID = 1010_2451
+ 5 sec: 2600 operations; 727 current ops/sec; [UPDATE AverageLatency(us)=13625.16] 
+Commit failed! Transaction ID = 1009_2621
+Commit failed! Transaction ID = 1009_2633
+Commit failed! Transaction ID = 1008_2637
+Commit failed! Transaction ID = 1008_2644
+Commit failed! Transaction ID = 1009_2651
+Commit failed! Transaction ID = 1004_2652
+Commit failed! Transaction ID = 1009_2657
+Commit failed! Transaction ID = 1001_2902
+Commit failed! Transaction ID = 1008_2904
+Commit failed! Transaction ID = 1004_3003
+Commit failed! Transaction ID = 1009_3262
+Commit failed! Transaction ID = 1010_3266
+ 6 sec: 3368 operations; 767.23 current ops/sec; [UPDATE AverageLatency(us)=13109.3] 
+Commit failed! Transaction ID = 1010_3815
+Commit failed! Transaction ID = 1008_3818
+Commit failed! Transaction ID = 1001_4146
+Commit failed! Transaction ID = 1001_4154
+Commit failed! Transaction ID = 1009_4160
+ 7 sec: 4245 operations; 877 current ops/sec; [UPDATE AverageLatency(us)=11364.09] 
+Commit failed! Transaction ID = 1004_4611
+Commit failed! Transaction ID = 1006_4619
+Commit failed! Transaction ID = 1008_4687
+Commit failed! Transaction ID = 1001_4696
+Commit failed! Transaction ID = 1008_4707
+Commit failed! Transaction ID = 1008_4716
+Commit failed! Transaction ID = 1010_4718
+Commit failed! Transaction ID = 1008_4726
+Commit failed! Transaction ID = 1009_4728
+Commit failed! Transaction ID = 1010_4850
+Commit failed! Transaction ID = 1008_4853
+Commit failed! Transaction ID = 1008_5036
+Commit failed! Transaction ID = 1001_5115
+Commit failed! Transaction ID = 1008_5124
+ 8 sec: 5158 operations; 913 current ops/sec; [UPDATE AverageLatency(us)=10933.86] 
+Commit failed! Transaction ID = 1001_5477
+Commit failed! Transaction ID = 1010_5504
+Commit failed! Transaction ID = 1008_5507
+Commit failed! Transaction ID = 1010_5514
+Commit failed! Transaction ID = 1008_5517
+Commit failed! Transaction ID = 1010_5614
+Commit failed! Transaction ID = 1008_5616
+Commit failed! Transaction ID = 1010_5633
+Commit failed! Transaction ID = 1010_5644
+Commit failed! Transaction ID = 1008_5655
+Commit failed! Transaction ID = 1008_5662
+Commit failed! Transaction ID = 1008_5671
+Commit failed! Transaction ID = 1009_5678
+Commit failed! Transaction ID = 1008_5681
+Commit failed! Transaction ID = 1009_5684
+Commit failed! Transaction ID = 1008_5690
+Commit failed! Transaction ID = 1009_5697
+Commit failed! Transaction ID = 1008_5700
+Commit failed! Transaction ID = 1009_5703
+Commit failed! Transaction ID = 1008_5709
+Commit failed! Transaction ID = 1009_5993
+Commit failed! Transaction ID = 1010_5998
+Commit failed! Transaction ID = 1005_6006
+ 9 sec: 6119 operations; 960.04 current ops/sec; [UPDATE AverageLatency(us)=10386.82] 
+Commit failed! Transaction ID = 1001_6195
+Commit failed! Transaction ID = 1008_6448
+Commit failed! Transaction ID = 1009_6475
+Commit failed! Transaction ID = 1010_7087
+Commit failed! Transaction ID = 1010_7097
+Commit failed! Transaction ID = 1010_7107
+ 10 sec: 7202 operations; 1083 current ops/sec; [UPDATE AverageLatency(us)=9216.09] 
+Commit failed! Transaction ID = 1004_7241
+Commit failed! Transaction ID = 1009_7320
+Commit failed! Transaction ID = 1009_7327
+Commit failed! Transaction ID = 1009_7337
+Commit failed! Transaction ID = 1008_7338
+Commit failed! Transaction ID = 1004_7347
+Commit failed! Transaction ID = 1008_7348
+Commit failed! Transaction ID = 1004_7356
+Commit failed! Transaction ID = 1005_7359
+Commit failed! Transaction ID = 1010_7364
+Commit failed! Transaction ID = 1008_7369
+Commit failed! Transaction ID = 1010_7373
+Commit failed! Transaction ID = 1008_7378
+Commit failed! Transaction ID = 1008_7388
+Commit failed! Transaction ID = 1008_7398
+Commit failed! Transaction ID = 1001_7400
+Commit failed! Transaction ID = 1008_7408
+Commit failed! Transaction ID = 1010_7411
+Commit failed! Transaction ID = 1010_7423
+Commit failed! Transaction ID = 1008_7428
+Commit failed! Transaction ID = 1009_7429
+Commit failed! Transaction ID = 1008_7435
+Commit failed! Transaction ID = 1009_7441
+Commit failed! Transaction ID = 1008_7445
+Commit failed! Transaction ID = 1010_7449
+Commit failed! Transaction ID = 1008_7455
+Commit failed! Transaction ID = 1010_7459
+Commit failed! Transaction ID = 1002_7488
+Commit failed! Transaction ID = 1005_7492
+Commit failed! Transaction ID = 1003_7645
+Commit failed! Transaction ID = 1002_8079
+ 11 sec: 8194 operations; 991.01 current ops/sec; [UPDATE AverageLatency(us)=10084.6] 
+Commit failed! Transaction ID = 1008_8480
+Commit failed! Transaction ID = 1008_8849
+Commit failed! Transaction ID = 1010_8857
+Commit failed! Transaction ID = 1008_8859
+Commit failed! Transaction ID = 1001_8860
+Commit failed! Transaction ID = 1008_8869
+Commit failed! Transaction ID = 1010_8871
+Commit failed! Transaction ID = 1008_8879
+Commit failed! Transaction ID = 1010_8881
+ 12 sec: 9388 operations; 1192.81 current ops/sec; [UPDATE AverageLatency(us)=8362.14] 
+Commit failed! Transaction ID = 1006_9416
+Commit failed! Transaction ID = 1008_9428
+^C[1m[7m%[27m[1m[0m                                                                                                              ]2;mie@mie-mbp: ~/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject]1;..eranceProject]133;D;130]1337;RemoteHost=mie@mie-mbp]1337;CurrentDir=/Users/mie/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject[0m[27m[24m[J]133;A[39m[0m[49m[40m[39m [31m✘[40m[39m mie@mie-mbp [44m[30m[30m ~/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject [49m[34m[39m ]133;B[K[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                              ]2;mie@mie-mbp: ~/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject]1;..eranceProject]133;C;]133;D;130]1337;RemoteHost=mie@mie-mbp]1337;CurrentDir=/Users/mie/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject[0m[27m[24m[J]133;A[39m[0m[49m[40m[39m [31m✘[40m[39m mie@mie-mbp [44m[30m[30m ~/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject [49m[34m[39m ]133;B[K[?1h=[?2004h[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                              ]2;mie@mie-mbp: ~/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject]1;..eranceProject]133;C;]133;D;130]1337;RemoteHost=mie@mie-mbp]1337;CurrentDir=/Users/mie/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject[0m[27m[24m[J]133;A[39m[0m[49m[40m[39m [31m✘[40m[39m mie@mie-mbp [44m[30m[30m ~/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject [49m[34m[39m ]133;B[K[?1h=[?2004h[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                              ]2;mie@mie-mbp: ~/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject]1;..eranceProject]133;C;]133;D;130]1337;RemoteHost=mie@mie-mbp]1337;CurrentDir=/Users/mie/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject[0m[27m[24m[J]133;A[39m[0m[49m[40m[39m [31m✘[40m[39m mie@mie-mbp [44m[30m[30m ~/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject [49m[34m[39m ]133;B[K[?1h=[?2004h[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                              ]2;mie@mie-mbp: ~/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject]1;..eranceProject]133;C;]133;D;130]1337;RemoteHost=mie@mie-mbp]1337;CurrentDir=/Users/mie/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject[0m[27m[24m[J]133;A[39m[0m[49m[40m[39m [31m✘[40m[39m mie@mie-mbp [44m[30m[30m ~/Desktop/MyProjects/CMPS277/ByzantineFaultTorleranceProject [49m[34m[39m ]133;B[K[?1h=[?2004h[1m[31mf[0m[39m[1m[31mf[1m[31mi[0m[39m[1m[31mf[1m[31mi[1m[31mn[0m[39m[0m[32mf[0m[32mi[0m[32mn[32md[39m [4m.[24m  -name \*.log[20D[39m[7mf[39m[7mi[39m[7mn[39m[7md[7m [24m[7m.[7m [7m [7m-[7mn[7ma[7mm[7me[7m [7m\[7m*[7m.[7ml[7mo[7mg[27m[20D[27m[32mf[27m[32mi[27m[32mn[27m[32md[39m[27m [27m[4m.[24m[27m [27m [27m-[27mn[27ma[27mm[27me[27m [27m\[27m*[27m.[27ml[27mo[27mg           [92m-[92mname '*.java' | \[39m
+[92mxargs sed -i -e 's/System.out.println/Logger.println/g'[39m[K[A[32C[92m [24m[92m.[92m [1m[31mf[1m[31mi[1m[31mn[0m[39m[92md[1m[31mf[1m[31mi[0m[39m[0m[92mn[1m[31mf[0m[39m[0m[92mi[0m[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [1B[K[A[80C
