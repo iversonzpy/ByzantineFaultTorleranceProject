@@ -39,9 +39,15 @@ public class SerializeDatabase extends DefaultSingleRecoverable {
             localDB.addTable(tableName, new HashMap<String, byte[]>());
         }
 
-        dbOperator.writeLocalDatabase(tableName, "A", "1000");
-        dbOperator.writeLocalDatabase(tableName, "B", "500");
-        dbOperator.writeLocalDatabase(tableName, "C", "300");
+        dbOperator.writeLocalDatabase(tableName, "a", "100");
+        dbOperator.writeLocalDatabase(tableName, "b", "200");
+        dbOperator.writeLocalDatabase(tableName, "c", "300");
+        dbOperator.writeLocalDatabase(tableName, "d", "100");
+        dbOperator.writeLocalDatabase(tableName, "e", "200");
+        dbOperator.writeLocalDatabase(tableName, "f", "300");
+        dbOperator.writeLocalDatabase(tableName, "g", "500");
+        dbOperator.writeLocalDatabase(tableName, "h", "1000");
+        dbOperator.writeLocalDatabase(tableName, "i", "1500");
 
     }
 
@@ -152,8 +158,8 @@ public class SerializeDatabase extends DefaultSingleRecoverable {
 
             }
             case READALL:{
-                printDBData();
-                break;
+                //printDBData(); return local DB table
+                return getTableData();
             }
 
         }
@@ -176,8 +182,15 @@ public class SerializeDatabase extends DefaultSingleRecoverable {
         this.localDB.addData(tableName,key, value.getBytes());
     }
 
-    public Map<String, byte[]> getTableData(){
-        return this.localDB.getTable(tableName);
+    public byte[] getTableData(){
+        //return this.localDB.getTable(tableName);
+
+        HashMap<String, byte[]> results = (HashMap<String, byte[]>) this.localDB.getTable(tableName);
+
+        YCSBMessage response = YCSBMessage.newReadResponse(results, 0);
+
+        return response.getBytes();
+
     }
 
     public void printDBData(){

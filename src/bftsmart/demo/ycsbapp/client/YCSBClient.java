@@ -25,8 +25,10 @@ import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * 
- * @author Marcel Santos
+ *
+ * @Author  Minghui
+ * @Description  YCSB test client.
+ * @Usage Run scripts in ./runscripts/ycsbClient.sh
  *
  */
 public class YCSBClient extends DB {
@@ -79,7 +81,7 @@ public class YCSBClient extends DB {
 
 
         reply = transR.read(table, key, fields, results);
-		//tcounter.getAndAdd(1);
+		tcounter.getAndAdd(1);
 
 
 		YCSBMessage replyMsg = YCSBMessage.getObject(reply);
@@ -108,7 +110,7 @@ public class YCSBClient extends DB {
 		}
 
 
-            transU.read(table, key, fields, results);
+        transU.read(table, key, fields, results);
 
 
 		Iterator<String> keys = values.keySet().iterator();

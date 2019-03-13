@@ -12,12 +12,14 @@ import java.util.Map;
 public class OptConcurrencyControl {
 
 
+
+    private SerializeDatabase sdb;
+    private int tnc;
+
     // key: tnc, value: CacheWrapper
     private Map<Integer, CacheWrapper> operationsWrapperMap;
     // key: tpid value: SerializeExecutor
     private Map<String, SerializeExecutor> operationExecutorMap;
-    private SerializeDatabase sdb;
-    private int tnc;
     //private SerializeExecutor serializeExecutor;
 
     public OptConcurrencyControl(SerializeDatabase sdb){
@@ -39,16 +41,25 @@ public class OptConcurrencyControl {
 
     public String executeReadOperation(YCSBMessage message){
 
+        // Check if a transaction had been started previously.
+
         if (!operationExecutorMap.containsKey(message.getPtid())){
             CacheWrapper cacheWrapper = new CacheWrapper(message.getPtid(), sdb);
             SerializeExecutor serializeExecutor =  new SerializeExecutor(cacheWrapper, this);
             operationExecutorMap.put(message.getPtid(), serializeExecutor);
         }
-        SerializeExecutor existedSerializeExecutor = operationExecutorMap.get(message.getPtid());
+        SerializeExecutor serializeExecutor = operationExecutorMap.get(message.getPtid());
         List<String> result = new ArrayList<>();
 
         for(String field: message.getFields()){
-            result.add(existedSerializeExecutor.cache.read(field));
+            String value = "";
+            try {
+                value = serializeExecutor.cache.read(field);
+            } catch (Exception ex) {
+                Logger.println("Error in executeReadOperation. " + ex.getMessage());
+            }
+
+            result.add(value);
         }
 
         return String.join("," , result);
@@ -64,10 +75,10 @@ public class OptConcurrencyControl {
             SerializeExecutor serializeExecutor = new SerializeExecutor(cacheWrapper, this);
             operationExecutorMap.put(message.getPtid(), serializeExecutor);
         }
-        SerializeExecutor existedSerializeExecutor = operationExecutorMap.get(message.getPtid());
+        SerializeExecutor serializeExecutor = operationExecutorMap.get(message.getPtid());
 
         for(Map.Entry<String, byte[]> entry: message.getValues().entrySet()){
-            existedSerializeExecutor.cache.write(entry.getKey(), new String(entry.getValue()));
+            serializeExecutor.cache.write(entry.getKey(), new String(entry.getValue()));
         }
         return true;
     }
@@ -82,9 +93,9 @@ public class OptConcurrencyControl {
             SerializeExecutor serializeExecutor = new SerializeExecutor(cacheWrapper, this);
             operationExecutorMap.put(message.getPtid(), serializeExecutor);
         }
-        SerializeExecutor existedSerializeExecutor = operationExecutorMap.get(message.getPtid());
+        SerializeExecutor serializeExecutor = operationExecutorMap.get(message.getPtid());
         try {
-            return existedSerializeExecutor.validate();
+            return serializeExecutor.validate();
         } catch (Throwable throwable) {
             throwable.printStackTrace();
             return false;

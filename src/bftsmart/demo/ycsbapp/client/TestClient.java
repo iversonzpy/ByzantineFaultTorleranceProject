@@ -14,6 +14,14 @@ import bftsmart.tom.util.Logger;
 import com.yahoo.ycsb.ByteIterator;
 
 
+/**
+ *
+ * @Author  Pengyang, Minghui
+ * @Description  Manual Test Client for OCC.
+ * @Usage TestClient $ClientId or run scripts in ./runscripts/testclient.sh $ClientId
+ *
+ */
+
 public class TestClient {
 
 
@@ -30,6 +38,8 @@ public class TestClient {
         int args_id = Integer.parseInt(args[0]);
         proxy = new ServiceProxy(args_id);
 
+        printWelcomeBackground(args_id);
+
         Console console = System.console();
        // Scanner scanner = new Scanner(System.in);
         while(true) {
@@ -41,7 +51,7 @@ public class TestClient {
             System.out.println("----------------------------");
             System.out.println("Transaction ID: " + ptid);
             System.out.println("Choose an operation to send:");
-            String usercmd = console.readLine("0. READALL  1. READ  2. WRITE  3. COMMIT  4. EXIT :  ");
+            String usercmd = console.readLine("1. READ  2. WRITE  3. COMMIT  4. EXIT :  ");
 
            // int userCmd = scanner.nextInt();
 
@@ -78,6 +88,42 @@ public class TestClient {
         YCSBTransactions transactions = new YCSBTransactions(proxy, "");
 
         transactions.readall(table);
+
+    }
+
+
+    public static void printWelcomeBackground(int clientId) {
+
+
+        // Print the list objects in tabular format.
+        System.out.println("----------------------------------------------------------------------");
+        System.out.println("                          BLACK FRIDAY SALES                          ");
+        System.out.println("----------------------------------------------------------------------");
+        System.out.printf("%25s %25s", "PRODUCT_ID", "INVENTORY");
+        System.out.println();
+        System.out.println("----------------------------------------------------------------------");
+        displayAllProducts(table);
+        System.out.println("----------------------------------------------------------------------");
+
+
+        //print all data
+
+        System.out.println("\t\t\t YOUR CUSTOMER ID: " + clientId);
+
+    }
+
+    public static void displayAllProducts(String table) {
+
+
+        YCSBTransactions transactions = new YCSBTransactions(proxy, "");
+        HashMap<String, String> results = transactions.readall(table);
+
+        for (String product : results.keySet()) {
+            System.out.printf("%25s %25s", product, new String(results.get(product)));
+            System.out.println();
+            // System.out.println("\t"+ product + "\t" + new String(results.get(product)));
+        }
+
 
     }
 

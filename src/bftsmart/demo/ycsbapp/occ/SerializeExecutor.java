@@ -8,7 +8,7 @@ import java.util.Set;
 public class SerializeExecutor {
 
     public CacheWrapper cache;
-    public  OptConcurrencyControl occ;
+    public OptConcurrencyControl occ;
     private int startTnc;
     private Queue<CacheWrapper> backupQueue;
 

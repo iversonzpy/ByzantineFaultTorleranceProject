@@ -25,6 +25,13 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ *
+ * @Author  Minghui
+ * @Description  YCSB serializable message for communication between client and server.
+ *
+ */
+
 
 public class YCSBMessage implements Serializable {
 	
