@@ -72,32 +72,36 @@
         <counts>
           <entry key="class" value="21" />
           <entry key="config" value="3" />
+          <entry key="gitignore" value="1" />
           <entry key="java" value="56" />
-          <entry key="sh" value="8" />
+          <entry key="sh" value="9" />
           <entry key="workloada" value="4" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Bash" value="1" />
           <entry key="CLASS" value="21" />
           <entry key="JAVA" value="56" />
-          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="PLAIN_TEXT" value="16" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="gitignore" value="10" />
           <entry key="java" value="1857" />
-          <entry key="sh" value="63" />
+          <entry key="sh" value="69" />
           <entry key="workloada" value="2" />
           <entry key="xml" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="Bash" value="6" />
           <entry key="JAVA" value="1857" />
-          <entry key="PLAIN_TEXT" value="65" />
+          <entry key="PLAIN_TEXT" value="75" />
           <entry key="XML" value="32" />
         </counts>
       </usages-collector>
@@ -133,19 +137,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsb/YCSBClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="92" column="29" lean-forward="true" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/client/TestClient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="293">
@@ -164,21 +155,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="269">
               <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/database/YCSBTable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1309">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-              <folding>
-                <element signature="e#1132#1133#0" expanded="true" />
-                <element signature="e#1200#1201#0" expanded="true" />
-                <element signature="e#1281#1282#0" expanded="true" />
-                <element signature="e#1328#1329#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -207,11 +183,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/logback.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="-32">
               <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/runscripts/startlog.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -337,7 +331,6 @@
         <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/database/YCSBOCCMessage.java" />
         <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/database/YCSBTable.java" />
         <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/database/YCSBTableOperation.java" />
-        <option value="$PROJECT_DIR$/runscripts/startlog.sh" />
         <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/occ/SerializeExecutor.java" />
         <option value="$PROJECT_DIR$/src/bftsmart/demo/currency_control/JTestClient.java" />
         <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsb/YCSBMessage.java" />
@@ -355,6 +348,8 @@
         <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/client/YCSBClient.java" />
         <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/client/UserAppClient.java" />
         <option value="$PROJECT_DIR$/config/logback.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/runscripts/startlog.sh" />
       </list>
     </option>
   </component>
@@ -391,84 +386,12 @@
             <path>
               <item name="ByzantineFaultTorleranceProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="ByzantineFaultTorleranceProject" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ByzantineFaultTorleranceProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ByzantineFaultTorleranceProject" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="workloads" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ByzantineFaultTorleranceProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ByzantineFaultTorleranceProject" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ByzantineFaultTorleranceProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="ByzantineFaultTorleranceProject" type="462c0819:PsiDirectoryNode" />
               <item name="runscripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ByzantineFaultTorleranceProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ByzantineFaultTorleranceProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ByzantineFaultTorleranceProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ByzantineFaultTorleranceProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bftsmart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ByzantineFaultTorleranceProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ByzantineFaultTorleranceProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bftsmart" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ByzantineFaultTorleranceProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ByzantineFaultTorleranceProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bftsmart" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="ycsb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ByzantineFaultTorleranceProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ByzantineFaultTorleranceProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bftsmart" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="ycsbapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ByzantineFaultTorleranceProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ByzantineFaultTorleranceProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bftsmart" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="ycsbapp" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ByzantineFaultTorleranceProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ByzantineFaultTorleranceProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bftsmart" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="ycsbapp" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ByzantineFaultTorleranceProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ByzantineFaultTorleranceProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bftsmart" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="ycsbapp" type="462c0819:PsiDirectoryNode" />
-              <item name="occ" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ByzantineFaultTorleranceProject" type="b2602c69:ProjectViewProjectNode" />
@@ -754,14 +677,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/database/YCSBOCCMessage.java" />
-    <entry file="file://$PROJECT_DIR$/runscripts/startlog.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/currency_control/ReplicaDef.java" />
     <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/currency_control/OccLayerDef.java" />
     <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/currency_control/JTestClient.java" />
@@ -1132,8 +1047,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="-32">
           <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runscripts/startlog.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
         </state>
       </provider>
     </entry>
