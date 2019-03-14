@@ -1,4 +1,6 @@
 ## BFT PROJECT
+https://github.com/iversonzpy/ByzantineFaultTorleranceProject
+
 
 In this project, we implemented a distributed Key-Value Database System.  
 It includes three layers, application layer,transaction layer and replication layer.
@@ -60,7 +62,15 @@ Set Client_ID = 0,1,2,...
 ./runscripts/testclient.sh 1
 ```
 
-Reference: BFT-Smart and Optimal Concurrency Control.
+References: 
 
+[1] B. Cooper et al, “Benchmarking Cloud Serving Systems with YCSB”, ACM Symposium on Cloud Computing (SoCC), Indianapolis, Indiana, June 2010.
 
+[2] Kung, Hsiang-Tsung, and John T. Robinson. "On optimistic methods for concurrency control." ACM Transactions on Database Systems (TODS) 6.2 (1981): 213-226.
+
+[3] A. N. Bessani, J. Sousa, and E. A. P. Alchieri. "State machine replication for the masses with BFT-SMART". In International Conference on Dependable Systems and Networks (DSN), pages 355–362, 2014.
+
+[4] Optimal Concurrency Control, http://bft-smart.github.io/library/.
+
+[5] BFT-Smart: https://github.com/mwhittaker/occ
 
