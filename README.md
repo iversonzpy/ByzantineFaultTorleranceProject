@@ -23,9 +23,13 @@ Several video demos can be found here.
 
 ##### Start Replicas
 
+```bash
+cd ByzantineFaultTorleranceProject
+```
+
 To run YCSB (TEST_TYPE = 1), run below command
 ```bash
-java -cp bin/:lib/* bftproject.ycsbapp.occ.SerializeDatabase $REPLICA_INDEX $TEST_TYPE
+java -cp bin/*:lib/* bftproject.ycsbapp.occ.SerializeDatabase $REPLICA_INDEX $TEST_TYPE
 
 ```
 or run scripts
@@ -47,7 +51,7 @@ or run scripts
 
 set TEST_TYPE = 2, run below command
 ```bash
-java -cp bin/:lib/* bftproject.ycsbapp.occ.SerializeDatabase $REPLICA_INDEX $TEST_TYPE
+java -cp bin/*:lib/* bftproject.ycsbapp.occ.SerializeDatabase $REPLICA_INDEX $TEST_TYPE
 
 ```
 or run scripts
