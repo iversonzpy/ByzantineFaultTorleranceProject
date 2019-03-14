@@ -4,6 +4,15 @@ https://github.com/iversonzpy/ByzantineFaultTorleranceProject
 
 In this project, we implemented a distributed Key-Value Database System.  
 It includes three layers, application layer,transaction layer and replication layer.
+We simulated the Online Shopping System as an application and also conducted YCSB test on our database.
+Several video demos can be found here.
+
+[1] https://www.youtube.com/watch?v=to84BsH24Cs&feature=youtu.be
+
+[2] https://www.youtube.com/watch?v=4DtxReJ183U&feature=youtu.be
+
+[3] https://www.youtube.com/watch?v=fqM2QzPS-sg&feature=youtu.be
+
 
 ##### System Architecture
 
