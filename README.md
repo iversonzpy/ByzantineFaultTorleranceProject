@@ -14,14 +14,14 @@ Several video demos can be found here.
 [3] https://www.youtube.com/watch?v=fqM2QzPS-sg&feature=youtu.be
 
 
-##### System Architecture
+#### System Architecture
 
 ![ImageOfStruture](https://raw.githubusercontent.com/iversonzpy/ByzantineFaultTorleranceProject/master/images/Structure.png)
 
 
-##### YCSB Test Usage
+#### YCSB Test Usage
 
-###### Start Replicas
+##### Start Replicas
 
 To run YCSB (TEST_TYPE = 1), run below command
 ```bash
@@ -41,9 +41,9 @@ or run scripts
 ./runscripts/ycsbClient.sh
 
 
-##### Online Shopping User Application Usage / Operation Interactive OCC Test Usage
+#### Online Shopping User Application Usage / Operation Interactive OCC Test Usage
 
-###### Start Replicas
+##### Start Replicas
 
 set TEST_TYPE = 2, run below command
 ```bash
@@ -57,21 +57,21 @@ or run scripts
 ./runscripts/startReplicaYCSB.sh 2 2
 ./runscripts/startReplicaYCSB.sh 3 2
 ```
-###### Start Online Shopping User Application Client 
+##### Start Online Shopping User Application Client 
 Set Client_ID = 0,1,2,...
 ```bash
 ./runscripts/userclient_start.sh 0
 ./runscripts/userclient_start.sh 1
 ```
 or 
-###### Start Operation Interactive OCC Test Client
+##### Start Operation Interactive OCC Test Client
 Set Client_ID = 0,1,2,...
 ```bash
 ./runscripts/testclient.sh 0
 ./runscripts/testclient.sh 1
 ```
 
-References: 
+#### References: 
 
 [1] B. Cooper et al, “Benchmarking Cloud Serving Systems with YCSB”, ACM Symposium on Cloud Computing (SoCC), Indianapolis, Indiana, June 2010.
 
