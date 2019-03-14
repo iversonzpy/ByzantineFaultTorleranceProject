@@ -1,4 +1,10 @@
-#PBFT PROJECT
+## BFT PROJECT
+
+In this project, we implemented a distributed Key-Value Database System.  
+It includes three layers, application layer,transaction layer and replication layer.
+
+##### System Architecture
+
 
 
 
