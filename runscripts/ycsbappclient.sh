@@ -1,1 +1,1 @@
-java -cp bin/*:lib/* bftsmart.demo.ycsbapp.client.TestClient $1
+java -cp bin/*:lib/* bftproject.ycsbapp.client.TestClient $1

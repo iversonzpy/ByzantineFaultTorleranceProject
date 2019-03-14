@@ -62,51 +62,56 @@
     <session id="1046225674">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="bat" value="1" />
           <entry key="class" value="21" />
-          <entry key="config" value="3" />
-          <entry key="gitignore" value="1" />
-          <entry key="java" value="56" />
+          <entry key="config" value="7" />
+          <entry key="gitignore" value="3" />
+          <entry key="java" value="101" />
           <entry key="log" value="1" />
-          <entry key="sh" value="9" />
+          <entry key="md" value="1" />
+          <entry key="sh" value="29" />
           <entry key="txt" value="1" />
-          <entry key="workloada" value="4" />
-          <entry key="xml" value="3" />
+          <entry key="workloada" value="7" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Bash" value="1" />
+          <entry key="Bash" value="21" />
           <entry key="CLASS" value="21" />
-          <entry key="JAVA" value="56" />
-          <entry key="PLAIN_TEXT" value="18" />
-          <entry key="XML" value="3" />
+          <entry key="JAVA" value="101" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="28" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gitignore" value="10" />
-          <entry key="java" value="1857" />
-          <entry key="md" value="106" />
-          <entry key="sh" value="69" />
-          <entry key="workloada" value="2" />
-          <entry key="xml" value="32" />
+          <entry key="config" value="23" />
+          <entry key="gitignore" value="12" />
+          <entry key="java" value="5548" />
+          <entry key="md" value="542" />
+          <entry key="sh" value="115" />
+          <entry key="workloada" value="4" />
+          <entry key="xml" value="128" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Bash" value="6" />
-          <entry key="JAVA" value="1857" />
-          <entry key="Markdown" value="106" />
-          <entry key="PLAIN_TEXT" value="75" />
-          <entry key="XML" value="32" />
+          <entry key="Bash" value="54" />
+          <entry key="JAVA" value="5548" />
+          <entry key="Markdown" value="540" />
+          <entry key="PLAIN_TEXT" value="102" />
+          <entry key="XML" value="128" />
         </counts>
       </usages-collector>
     </session>
@@ -117,106 +122,70 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/client/YCSBClient.java">
+        <entry file="file://$PROJECT_DIR$/runscripts/startReplicaYCSB.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="95" column="21" selection-start-line="95" selection-start-column="15" selection-end-line="95" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/occ/OptConcurrencyControl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="50" column="55" lean-forward="true" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/occ/CacheWrapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/client/UserAppClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="42" column="62" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/client/YCSBTransactions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1484">
-              <caret line="72" column="14" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/logback.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-32">
-              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            <state relative-caret-position="418">
+              <caret line="19" column="86" lean-forward="true" selection-start-line="19" selection-end-line="19" selection-end-column="86" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="418">
+                <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log/YCSBClientLog.log2019-03-13011721.log">
+        <entry file="file://$PROJECT_DIR$/config/workloads/workloada">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1437" />
+            <state relative-caret-position="729">
+              <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/occ/SerializeDatabase.java">
+        <entry file="file://$PROJECT_DIR$/config/hosts.config">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2170">
-              <caret line="183" column="8" selection-start-line="183" selection-start-column="8" selection-end-line="183" selection-end-column="8" />
+            <state relative-caret-position="680">
+              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bftproject/ycsbapp/client/UserAppClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2052">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#main#0;class#SerializeDatabase#0" />
-                <element signature="method#getSnapshot#0;class#SerializeDatabase#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/runscripts/ycsbappclient.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="39" selection-start-column="39" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bftproject/ycsbapp/client/YCSBClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -232,8 +201,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>string</find>
-      <find>signature</find>
       <find>snapsh</find>
       <find>batch</find>
       <find>KVProxy</find>
@@ -262,6 +229,8 @@
       <find>System.out.println</find>
       <find>Logger</find>
       <find>logger</find>
+      <find>YCSB</find>
+      <find>Using view stored on disk</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -286,6 +255,7 @@
       <dir>$PROJECT_DIR$/src/bftsmart/demo/ycsb</dir>
       <dir>$PROJECT_DIR$/src/bftsmart</dir>
       <dir>$PROJECT_DIR$/src/bftsmart/demo</dir>
+      <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -297,56 +267,56 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/bftsmart/demo/delivery/OOC/JClientDatabase.java" />
-        <option value="$PROJECT_DIR$/src/bftsmart/demo/currency_control/OccProtocolDef.java" />
-        <option value="$PROJECT_DIR$/src/bftsmart/demo/currency_control/DatabaseDef.java" />
-        <option value="$PROJECT_DIR$/src/bftsmart/demo/currency_control/TransactionDef.java" />
-        <option value="$PROJECT_DIR$/src/bftsmart/demo/bftmap/BFTMap.java" />
-        <option value="$PROJECT_DIR$/src/bftsmart/demo/currency_control/OperationDef.java" />
-        <option value="$PROJECT_DIR$/runscripts/test.sh" />
-        <option value="$PROJECT_DIR$/runscripts/test_client.sh" />
-        <option value="$PROJECT_DIR$/src/bftsmart/demo/currency_control/OccExecutor.java" />
-        <option value="$PROJECT_DIR$/src/bftsmart/demo/currency_control/MessageDef.java" />
-        <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/occ/SerialTransactionExecutor.java" />
-        <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/occ/OccDatabaseOperation.java" />
-        <option value="$PROJECT_DIR$/src/bftsmart/demo/bftmap/MapOfMaps.java" />
-        <option value="$PROJECT_DIR$/src/bftsmart/demo/currency_control/TransDBWrapper.java" />
         <option value="$PROJECT_DIR$/src/bftsmart/demo/currency_control/OccLayerDef.java" />
         <option value="$PROJECT_DIR$/src/bftsmart/tom/server/defaultservices/DefaultSingleRecoverable.java" />
         <option value="$PROJECT_DIR$/src/bftsmart/demo/bftmap/BFTMapServer.java" />
         <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/occ/DatabaseOperation.java" />
         <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/database/MyYCSBMessage.java" />
         <option value="$PROJECT_DIR$/src/bftsmart/demo/currency_control/ReplicaDef.java" />
-        <option value="$PROJECT_DIR$/runscripts/ycsbapp.sh" />
         <option value="$PROJECT_DIR$/../../leetcode_prepare/Dropbox/dropbox codes/DB-find duplicate files.java" />
         <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsb/YCSBClient.java" />
-        <option value="$PROJECT_DIR$/runscripts/ycsbappclient.sh" />
         <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/database/CacheWrapperYCSBTable.java" />
         <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/database/DatabaseOperation.java" />
-        <option value="$PROJECT_DIR$/runscripts/startReplicaYCSB.sh" />
         <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/client/MyStream.java" />
         <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/database/YCSBOCCMessage.java" />
-        <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/database/YCSBTable.java" />
         <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/database/YCSBTableOperation.java" />
-        <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/occ/SerializeExecutor.java" />
         <option value="$PROJECT_DIR$/src/bftsmart/demo/currency_control/JTestClient.java" />
         <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsb/YCSBMessage.java" />
         <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsb/YCSBServer.java" />
-        <option value="$PROJECT_DIR$/build.xml" />
-        <option value="$PROJECT_DIR$/runscripts/userclient_start.sh" />
-        <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/database/YCSBMessage.java" />
-        <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/client/TestClient.java" />
-        <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/occ/OptConcurrencyControl.java" />
-        <option value="$PROJECT_DIR$/runscripts/ycsbClient.sh" />
-        <option value="$PROJECT_DIR$/config/workloads/workloada" />
         <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/occ/CacheWrapper.java" />
-        <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/occ/SerializeDatabase.java" />
-        <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/client/YCSBTransactions.java" />
-        <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/client/YCSBClient.java" />
-        <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/client/UserAppClient.java" />
         <option value="$PROJECT_DIR$/config/logback.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/runscripts/startlog.sh" />
+        <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/occ/SerializeExecutor.java" />
+        <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/occ/OptConcurrencyControl.java" />
+        <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/database/YCSBTable.java" />
+        <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/client/TestClient.java" />
+        <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/client/UserAppClient.java" />
+        <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/client/YCSBClient.java" />
+        <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/client/YCSBTransactions.java" />
+        <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/database/YCSBMessage.java" />
+        <option value="$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/occ/SerializeDatabase.java" />
+        <option value="$PROJECT_DIR$/config/hosts.config" />
+        <option value="$PROJECT_DIR$/config/system.config" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/bftproject/ycsbapp/database/YCSBMessage.java" />
+        <option value="$PROJECT_DIR$/src/bftproject/ycsbapp/database/YCSBTable.java" />
+        <option value="$PROJECT_DIR$/src/bftproject/ycsbapp/occ/CacheWrapper.java" />
+        <option value="$PROJECT_DIR$/src/bftproject/ycsbapp/occ/SerializeExecutor.java" />
+        <option value="$PROJECT_DIR$/src/bftproject/ycsbapp/database/YCSBTableOperation.java" />
+        <option value="$PROJECT_DIR$/src/bftproject/ycsbapp/occ/OptConcurrencyControl.java" />
+        <option value="$PROJECT_DIR$/src/bftproject/ycsbapp/client/TestClient.java" />
+        <option value="$PROJECT_DIR$/runscripts/testclient.sh" />
+        <option value="$PROJECT_DIR$/runscripts/userclient_start.sh" />
+        <option value="$PROJECT_DIR$/runscripts/ycsbapp.sh" />
+        <option value="$PROJECT_DIR$/runscripts/ycsbappclient.sh" />
+        <option value="$PROJECT_DIR$/runscripts/ycsbClient.sh" />
+        <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/src/bftproject/ycsbapp/client/UserAppClient.java" />
+        <option value="$PROJECT_DIR$/src/bftproject/ycsbapp/client/YCSBTransactions.java" />
+        <option value="$PROJECT_DIR$/src/bftproject/ycsbapp/client/YCSBClient.java" />
+        <option value="$PROJECT_DIR$/config/workloads/workloada" />
+        <option value="$PROJECT_DIR$/src/bftproject/ycsbapp/occ/SerializeDatabase.java" />
+        <option value="$PROJECT_DIR$/runscripts/startReplicaYCSB.sh" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -361,8 +331,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="471" />
+    <option name="y" value="28" />
     <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="height" value="946" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -373,7 +345,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -384,12 +355,54 @@
             <path>
               <item name="ByzantineFaultTorleranceProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="ByzantineFaultTorleranceProject" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ByzantineFaultTorleranceProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ByzantineFaultTorleranceProject" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ByzantineFaultTorleranceProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ByzantineFaultTorleranceProject" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ByzantineFaultTorleranceProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="ByzantineFaultTorleranceProject" type="462c0819:PsiDirectoryNode" />
               <item name="runscripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ByzantineFaultTorleranceProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ByzantineFaultTorleranceProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ByzantineFaultTorleranceProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ByzantineFaultTorleranceProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ycsbapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ByzantineFaultTorleranceProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ByzantineFaultTorleranceProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ycsbapp" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ByzantineFaultTorleranceProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ByzantineFaultTorleranceProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ycsbapp" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ByzantineFaultTorleranceProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ByzantineFaultTorleranceProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ycsbapp" type="462c0819:PsiDirectoryNode" />
+              <item name="occ" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ByzantineFaultTorleranceProject" type="b2602c69:ProjectViewProjectNode" />
@@ -399,6 +412,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -406,7 +420,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552258482731" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -415,6 +429,9 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="bftsmart.demo.ycsbapp.database" />
       <recent name="bftsmart.demo.ycsb" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -604,13 +621,13 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20595238" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16785714" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49761903" visible="true" weight="0.12287712" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.49761903" visible="true" weight="0.06393606" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -618,8 +635,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.26073927" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50238097" side_tool="true" visible="true" weight="0.12287712" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49761903" weight="0.1978022" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.23690476" side_tool="true" visible="true" weight="0.09290709" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.76309526" weight="0.4965035" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.07857143" />
@@ -654,7 +671,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/client/YCSBClient.java</url>
-          <line>100</line>
+          <line>102</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -665,243 +682,10 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
     <buildFile url="file://$PROJECT_DIR$/build.xml">
-      <targetFilters>
-        <filter targetName="main" isVisible="true" />
-        <filter targetName="compile" isVisible="true" />
-        <filter targetName="jar" isVisible="true" />
-        <filter targetName="test" isVisible="false" />
-      </targetFilters>
       <expanded value="true" />
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/currency_control/JTestClient.java" />
-    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsb/YCSBMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2442">
-          <caret line="127" column="39" selection-start-line="127" selection-start-column="30" selection-end-line="127" selection-end-column="39" />
-          <folding>
-            <element signature="e#4343#4344#0" expanded="true" />
-            <element signature="e#4360#4361#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bftsmart/reconfiguration/util/RSAKeyLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bftsmart/communication/client/netty/NettyTOMMessageEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
-          <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runscripts/ycsb.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="112" column="27" selection-start-line="112" selection-start-column="27" selection-end-line="112" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runscripts/userclient_start.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="63" selection-start-column="63" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsb/YCSBTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/database/YCSBMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="119" column="40" lean-forward="true" selection-start-line="119" selection-start-column="40" selection-end-line="119" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/system.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1317">
-          <caret line="94" column="14" lean-forward="true" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runscripts/startReplicaYCSB.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runscripts/ycsbappclient.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runscripts/ycsbapp.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/occ/SerializeExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1298">
-          <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
-          <folding>
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/database/YCSBTableOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/hosts.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
-          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/workloads/workloada">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runscripts/ycsbClient.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="23" column="96" selection-start-line="23" selection-start-column="96" selection-end-line="23" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/core-0.1.4.jar!/com/yahoo/ycsb/DB.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/core-0.1.4.jar!/com/yahoo/ycsb/BasicDB.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/core-0.1.4.jar!/com/yahoo/ycsb/measurements/exporter/MeasurementsExporter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/core-0.1.4.jar!/com/yahoo/ycsb/WorkloadException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/core-0.1.4.jar!/com/yahoo/ycsb/Workload.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/core-0.1.4.jar!/com/yahoo/ycsb/measurements/Measurements.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1214">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/core-0.1.4.jar!/com/yahoo/ycsb/measurements/OneMeasurement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/core-0.1.4.jar!/com/yahoo/ycsb/measurements/SeriesUnit.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/core-0.1.4.jar!/com/yahoo/ycsb/measurements/OneMeasurementTimeSeries.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="115" column="33" selection-start-line="115" selection-start-column="23" selection-end-line="115" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/core-0.1.4.jar!/com/yahoo/ycsb/workloads/ConstantOccupancyWorkload.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-151">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/core-0.1.4.jar!/com/yahoo/ycsb/workloads/CoreWorkload.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5756">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/core-0.1.4.jar!/com/yahoo/ycsb/ByteArrayByteIterator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/core-0.1.4.jar!/com/yahoo/ycsb/ByteIterator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/core-0.1.4.jar!/com/yahoo/ycsb/Client.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/core-0.1.4.jar!/com/yahoo/ycsb/ClientThread.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -916,135 +700,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsb/YCSBServer.java">
+    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsb/YCSBServer.java" />
+    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/counter/CounterClient.java" />
+    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/bftmap/BFTMapServer.java" />
+    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsb/YCSBClient.java" />
+    <entry file="file://$PROJECT_DIR$/log/YCSBClientLog.log2019-03-13011721.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="174" column="28" selection-start-line="174" selection-start-column="28" selection-end-line="174" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1437" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/database/YCSBTableOperation.java" />
+    <entry file="file://$PROJECT_DIR$/src/bftsmart/tom/ServiceProxy.java" />
+    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/occ/CacheWrapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/occ/OptConcurrencyControl.java" />
+    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/occ/SerializeExecutor.java" />
+    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/database/YCSBTable.java" />
+    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/client/TestClient.java" />
+    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/client/YCSBClient.java" />
+    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/database/YCSBMessage.java" />
+    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/client/YCSBTransactions.java" />
+    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/client/UserAppClient.java" />
+    <entry file="file://$PROJECT_DIR$/src/bftsmart/reconfiguration/views/DefaultViewStorage.java" />
+    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/occ/SerializeDatabase.java" />
+    <entry file="file://$PROJECT_DIR$/src/bftsmart/tom/ServiceReplica.java" />
+    <entry file="file://$PROJECT_DIR$/src/bftsmart/reconfiguration/ServerViewController.java" />
+    <entry file="file://$PROJECT_DIR$/src/bftsmart/reconfiguration/ViewController.java" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/counter/CounterClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="62" column="18" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/bftmap/BFTMapServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="276" column="28" selection-start-line="276" selection-start-column="22" selection-end-line="276" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/database/YCSBTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1309">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding>
-            <element signature="e#1132#1133#0" expanded="true" />
-            <element signature="e#1200#1201#0" expanded="true" />
-            <element signature="e#1281#1282#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsb/YCSBClient.java">
+    <entry file="file://$PROJECT_DIR$/src/bftproject/ycsbapp/database/YCSBMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="92" column="29" lean-forward="true" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/client/TestClient.java">
+    <entry file="file://$PROJECT_DIR$/src/bftproject/ycsbapp/occ/SerializeExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#increaseByOneTest#0;class#TestClient#0" />
-            <element signature="method#increaseByTwoTest#0;class#TestClient#0" />
-          </folding>
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/occ/CacheWrapper.java">
+    <entry file="file://$PROJECT_DIR$/src/bftproject/ycsbapp/database/YCSBTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        <state relative-caret-position="44">
+          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/occ/OptConcurrencyControl.java">
+    <entry file="file://$PROJECT_DIR$/src/bftproject/ycsbapp/database/YCSBTableOperation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="50" column="55" lean-forward="true" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
+        <state relative-caret-position="-188">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/client/UserAppClient.java">
+    <entry file="file://$PROJECT_DIR$/src/bftproject/ycsbapp/occ/CacheWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="42" column="62" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/client/YCSBTransactions.java">
+    <entry file="file://$PROJECT_DIR$/src/bftproject/ycsbapp/occ/OptConcurrencyControl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1484">
-          <caret line="72" column="14" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
+        <state relative-caret-position="66">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bftproject/ycsbapp/client/TestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="687">
+          <caret line="205" column="15" lean-forward="true" selection-start-line="205" selection-start-column="15" selection-end-line="205" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/client/YCSBClient.java">
+    <entry file="file://$PROJECT_DIR$/runscripts/smartrun.bat" />
+    <entry file="file://$PROJECT_DIR$/runscripts/smartrun.sh" />
+    <entry file="file://$PROJECT_DIR$/runscripts/ycsbapp.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="95" column="21" selection-start-line="95" selection-start-column="15" selection-end-line="95" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bftsmart/demo/ycsbapp/occ/SerializeDatabase.java">
+    <entry file="file://$PROJECT_DIR$/runscripts/userclient_start.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2170">
-          <caret line="183" column="8" selection-start-line="183" selection-start-column="8" selection-end-line="183" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#SerializeDatabase#0" />
-            <element signature="method#getSnapshot#0;class#SerializeDatabase#0" />
-          </folding>
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runscripts/ycsb.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2464">
+          <caret line="112" column="27" selection-start-line="112" selection-start-column="27" selection-end-line="112" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="330">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1055,22 +827,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/YCSBClientLog.log2019-03-13011721.log">
+    <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1437" />
+        <state relative-caret-position="130">
+          <caret line="18" column="108" selection-start-line="18" selection-start-column="108" selection-end-line="18" selection-end-column="108" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/bftproject/ycsbapp/client/YCSBTransactions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state relative-caret-position="64">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bftproject/ycsbapp/client/UserAppClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2052">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bftproject/ycsbapp/client/YCSBClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/workloads/workloada">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/hosts.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/system.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="107" column="29" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bftproject/ycsbapp/occ/SerializeDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="73" column="80" selection-start-line="73" selection-start-column="80" selection-end-line="73" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runscripts/ycsbappclient.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runscripts/testclient.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runscripts/ycsbClient.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="222" selection-start-line="23" selection-start-column="222" selection-end-line="23" selection-end-column="222" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runscripts/startReplicaYCSB.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="86" lean-forward="true" selection-start-line="19" selection-end-line="19" selection-end-column="86" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="418">
+            <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

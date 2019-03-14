@@ -2,7 +2,7 @@
 <project default="main">
 	<property name="base.dir" location="." />
 	<property name="src.dir" location="src" />
-	<property name="test.dir" location="src" />
+	<property name="test.dir" location="test" />
 	<property name="build.dir" location="bin" />
 	<property name="dist.dir" location="bin" />
 	<property name="lib.dir" location="lib" />
@@ -15,18 +15,14 @@
 	<path id="libs">
 		<fileset dir="${lib}" includes="*.jar" />
 	</path>
-	<path id="classpath.test">
-		<fileset dir="${lib.dir}" includes="*.jar" />
-		<pathelement location="${dist.dir}" />
-	</path>
 	<target name="compile" description="Compilation target">
-		<javac classpathref="libs" source="1.7" target="1.7" destdir="${build.dir}" nowarn="on" debug="true">
+		<javac classpathref="libs" source="1.8" target="1.8" destdir="${build.dir}" nowarn="on" debug="false">
 			<src path="${src.dir}" />
 			<src path="${test.dir}" />
 		</javac>
 	</target>
 	<target name="jar" description="Compression target">
-		<jar jarfile="${dist.dir}/BFT-SMaRt.jar">
+		<jar jarfile="${dist.dir}/BFTProject.jar">
 			<fileset dir="${build.dir}">
 				<include name="**/*.class" />
 			</fileset>
@@ -34,5 +30,10 @@
 				<include name="config/*" />
 			</fileset>
 		</jar>
+	</target>
+	<target name="clean"
+			description="clean up" >
+		<!-- Delete the ${build} and ${dist} directory trees -->
+		<delete dir="${build.dir}"/>
 	</target>
 </project>

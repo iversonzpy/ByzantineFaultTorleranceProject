@@ -15,5 +15,6 @@
 #/bin/bash
 
 REPLICA_INDEX=$1
+TEST_TYPE=$2
 
-java -cp bin/:lib/* bftsmart.demo.ycsbapp.occ.SerializeDatabase $REPLICA_INDEX
+java -cp bin/:lib/* bftproject.ycsbapp.occ.SerializeDatabase $REPLICA_INDEX $TEST_TYPE
