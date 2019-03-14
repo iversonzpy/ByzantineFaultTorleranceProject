@@ -22,7 +22,7 @@
 		</javac>
 	</target>
 	<target name="jar" description="Compression target">
-		<jar jarfile="${dist.dir}/BFTProject.jar">
+		<jar jarfile="${lib.dir}/BFTProject.jar">
 			<fileset dir="${build.dir}">
 				<include name="**/*.class" />
 			</fileset>
