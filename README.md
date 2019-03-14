@@ -5,7 +5,7 @@ It includes three layers, application layer,transaction layer and replication la
 
 ##### System Architecture
 
-
+![ImageOfStruture](https://raw.githubusercontent.com/iversonzpy/ByzantineFaultTorleranceProject/master/images/Structure.png)
 
 
 ##### YCSB Test Usage
