@@ -1,4 +1,5 @@
-## BFT-SMaRt Based Transactional System - BFT Project for CMPS277
+## BFT-SMaRt Based Transactional System - BFT Project for Principles of Database
+
 https://github.com/iversonzpy/ByzantineFaultTorleranceProject
 
 
